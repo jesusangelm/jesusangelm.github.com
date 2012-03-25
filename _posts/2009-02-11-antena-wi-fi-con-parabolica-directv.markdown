@@ -1,5 +1,6 @@
 ---
 layout: post
+category: antenas-wifi
 title: !binary |-
   QW50ZW5hIFdpLUZpIGNvbiBQYXJhYm9saWNhIERpcmVjVHYgISEh
 tags:
@@ -22,6 +23,8 @@ tags:
 - !binary |-
   bWJy
 ---
+{% include JB/setup %}
+
 Bueno se que esto no es software libre ni mucho menos linux, pero quiero compartir una antena que hice para  realizar conexiones Wi-Fi a larga distancia.
 
 Esta antena esta hecha con materiales caseros por lo tanto es sencilla de hacer y relativamente economica. Y digo relativamente porque puede que, al igual que yo tengas problemas en conseguir los materiales como el cable, conectores, etc. Lo cual puede hacer que los adquieras en el unico sitio que consigas, y en mi caso ese sitio vende muy caro :-(
@@ -57,5 +60,3 @@ Aqui algunas imagenes de la Antena:
 <a href="http://img103.imageshack.us/my.php?image=imagen025ui9.jpg"><img class="alignnone" title="Cantena+DTV-5" src="http://img103.imageshack.us/img103/8282/imagen025ui9.th.jpg" alt="" width="150" height="128" /></a>
 
 <a href="http://img210.imageshack.us/my.php?image=imagen017bs6.jpg"><img class="alignnone" title="Cantenna+DVT-6" src="http://img210.imageshack.us/img210/6257/imagen017bs6.th.jpg" alt="" width="150" height="128" /></a>
-
-<a href="http://img206.imageshack.us/my.php?image=imagen014dz1.jpg"><img class="alignnone" title="Cantenna+DTV-7" src="http://img206.imageshack.us/img206/5861/imagen014dz1.th.jpg" alt="" width="150" height="128" /></a>
