@@ -34,18 +34,28 @@ Los Materiales usados son:
 
 - Una Parabolica.
 
--Conector Tipo N Macho
+- Conector Tipo N Macho
 
--Conector Tipo N Hembra (de Chasis 4 tornillos o Chasis enrroscable)
+- Conector Tipo N Hembra (de Chasis 4 tornillos o Chasis enrroscable)
 
--Conector RP-SMA  Macho.
+- Conector RP-SMA  Macho.
 
--Cable RG-58 o LMR-200 o superior.
+- Cable RG-58 o LMR-200 o superior.
 
 Si usa cable RG-58 usa la menor cantidad posible e intenta conseguir el que es doble apantallado ya que este presenta cantidad similar al Lmr-200 y es mas economico.
 
 Aqui algunas imagenes de la Antena:
 
-<a href="http://img234.imageshack.us/my.php?image=pantallazo20st0.png"><img class="alignnone" title="Cantena+DTV" src="http://img234.imageshack.us/img234/3994/pantallazo20st0.th.png" alt="" width="150" height="128" /></a><a href="http://img104.imageshack.us/my.php?image=imagen037tr2.jpg"><img class="alignnone" src="http://img104.imageshack.us/img104/4514/imagen037tr2.th.jpg" alt="" width="150" height="128" /></a><a href="http://img509.imageshack.us/my.php?image=imagen035sz7.jpg"><img class="alignnone" title="Cantenna+DVT-3" src="http://img509.imageshack.us/img509/2283/imagen035sz7.th.jpg" alt="" width="150" height="128" /></a>
+<a href="http://img234.imageshack.us/my.php?image=pantallazo20st0.png"> <img class="alignnone" title="Cantena+DTV" src="http://img234.imageshack.us/img234/3994/pantallazo20st0.th.png" alt="" width="150" height="128" /></a>
 
-[caption id="" align="alignnone" width="150" caption="Cantenna+DVT-4"]<a href="http://img509.imageshack.us/my.php?image=imagen026ri6.jpg"><img src="http://img509.imageshack.us/img509/8347/imagen026ri6.th.jpg" alt="Cantenna+DVT-4" width="150" height="128" /></a><a href="http://img103.imageshack.us/my.php?image=imagen025ui9.jpg"><img class="alignnone" title="Cantena+DTV-5" src="http://img103.imageshack.us/img103/8282/imagen025ui9.th.jpg" alt="" width="150" height="128" /></a><a href="http://img210.imageshack.us/my.php?image=imagen017bs6.jpg"><img class="alignnone" title="Cantenna+DVT-6" src="http://img210.imageshack.us/img210/6257/imagen017bs6.th.jpg" alt="" width="150" height="128" /></a><a href="http://img206.imageshack.us/my.php?image=imagen014dz1.jpg"><img class="alignnone" title="Cantenna+DTV-7" src="http://img206.imageshack.us/img206/5861/imagen014dz1.th.jpg" alt="" width="150" height="128" /></a>[/caption]
+<a href="http://img104.imageshack.us/my.php?image=imagen037tr2.jpg"><img class="alignnone" src="http://img104.imageshack.us/img104/4514/imagen037tr2.th.jpg" alt="" width="150" height="128" /></a>
+
+<a href="http://img509.imageshack.us/my.php?image=imagen035sz7.jpg"><img class="alignnone" title="Cantenna+DVT-3" src="http://img509.imageshack.us/img509/2283/imagen035sz7.th.jpg" alt="" width="150" height="128" /></a>
+
+<a href="http://img509.imageshack.us/my.php?image=imagen026ri6.jpg"><img src="http://img509.imageshack.us/img509/8347/imagen026ri6.th.jpg" alt="Cantenna+DVT-4" width="150" height="128" /></a>
+
+<a href="http://img103.imageshack.us/my.php?image=imagen025ui9.jpg"><img class="alignnone" title="Cantena+DTV-5" src="http://img103.imageshack.us/img103/8282/imagen025ui9.th.jpg" alt="" width="150" height="128" /></a>
+
+<a href="http://img210.imageshack.us/my.php?image=imagen017bs6.jpg"><img class="alignnone" title="Cantenna+DVT-6" src="http://img210.imageshack.us/img210/6257/imagen017bs6.th.jpg" alt="" width="150" height="128" /></a>
+
+<a href="http://img206.imageshack.us/my.php?image=imagen014dz1.jpg"><img class="alignnone" title="Cantenna+DTV-7" src="http://img206.imageshack.us/img206/5861/imagen014dz1.th.jpg" alt="" width="150" height="128" /></a>
