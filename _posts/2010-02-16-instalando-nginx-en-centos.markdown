@@ -46,7 +46,9 @@ tags:
 - !binary |-
   cmVk
 ---
-En mi anterior post  les explicaba como <a href="http://blog.jam.net.ve/2010/02/16/instalando-webmin-en-centos-debian/" target="_blank">instalar el panel de control Webmin</a> y les comentaba que me habia hecho con un VPS para pruebas y aprendizaje  el cual tiene CentOS como Sistema Operativo. Bueno este VPS que me fue ofrecido es Unmanaged, es decir "No Administrado" lo que significa que el proveedor no me ofrece soporte tecnico completo.  en pocas palabras:  "que yo debo hacer absolutamente todo".  Bien eso es lo que me gusta puesto que la idea principal es Aprender.
+{% include JB/setup %}
+
+En mi anterior post  les explicaba como <a href="http://blog.jam.net.ve/2010/02/16/instalando-webmin-en-centos-debian/" target="_blank">instalar el panel de control Webmin</a> y les comentaba que me habia hecho con un VPS para pruebas y aprendizaje  el cual tiene CentOS como Sistema Operativo. Bueno este VPS que me fue ofrecido es Unmanaged, es decir "No Administrado" lo que significa que el proveedor no me ofrece soporte tecnico completo.  en pocas palabras:  "que yo debo hacer absolutamente todo".  Bien eso es lo que me gusta puesto que la idea principal es aprender.
 
 Uno de los principales problemas con lo que me tope apenas tube los datos de acceso en mis manos fue que el VPS tiene poca memoria Ram, unos 128Mb para ser exactos. Esto me pone el trabajo un poco mas dificil pues no es memoria suficientes como para instalar y poner a funcionar simultaneamente y sin muchas configuraciones el Apache, MySQL, PHP, Bind, FTP, Webmin, correos POP3/SMTP/IMAP, etc....   Bien ya con esto entendi que no podia hacer ni exigirle mucho al VPS, pero algo tenia que hacer, al menos deberia poder lograr agregarle un dominio para accesar por medio de ese dominio  y no por la ip, y poder montar por lo menos una pagina estatica y quitar la que estaba por defecto.
 
@@ -56,51 +58,54 @@ Asi que esto de momento me deja con Apache en la mira, pues bien le tengo un sus
 
 Para instalarlo en CentOS primero debemos instalar los Repositorios EPEL tecleando en la terminal:
 
--Para versiones de 64Bits
+- Para versiones de 64Bits
 
-[bash]sudo rpm -Uvh http://download.fedora.redhat.com/pub/epel/5Server/x86_64/epel-release-5-3.noarch.rpm[/bash]
+{% highlight bash %}
+$ sudo rpm -Uvh http://download.fedora.redhat.com/pub/epel/5Server/x86_64/epel-release-5-3.noarch.rpm
+{% endhighlight %}
 
-<span style="color: #000000;">-Para versiones de 32Bits</span>
+- Para versiones de 32Bits
 
-<span style="color: #000000;">[bash]sudo rpm -Uvh http://download.fedora.redhat.com/pub/epel/5Server/i386/epel-release-5-3.noarch.rpm[/bash]
+{% highlight bash %}
+$ sudo rpm -Uvh http://download.fedora.redhat.com/pub/epel/5Server/i386/epel-release-5-3.noarch.rpm
+{% endhighlight %}
 
-</span>
 
-<span style="color: #000000;">Instalado dichos repositorios ahora podremos instalar Nginx usando el comando Yum, para esto tecleamos en la terminal:</span>
+Instalado dichos repositorios ahora podremos instalar Nginx usando el comando Yum, para esto tecleamos en la terminal:
 
-<span style="color: #000000;">[bash]sudo yum install nginx[/bash]
+{% highlight bash %}
+$ sudo yum install nginx
 
-</span>
 
-<span style="color: #000000;">Durante el proceso se te preguntara si deseas importar la llave GPG de EPEL y te aparecera algo como esto:</span>
+Durante el proceso se te preguntara si deseas importar la llave GPG de EPEL y te aparecera algo como esto:
 
-<span style="color: #000000;">[bash]warning: rpmts_HdrFromFdno: Header V3 DSA signature: NOKEY, key ID 217521f6 Importing GPG key 0x217521F6 &quot;Fedora EPEL &lt;epel@fedoraproject.org&gt;&quot; from /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL Is this ok [y/N]:[/bash]
+{% highlight bash %}
+warning: rpmts_HdrFromFdno: Header V3 DSA signature: NOKEY, key ID 217521f6 Importing GPG key 0x217521F6 &quot;Fedora EPEL &lt;epel@fedoraproject.org&gt;&quot; from /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL Is this ok [y/N]:
+{% endhighlight %}
 
-</span>
+Presionamos la tecla "Y"  para aceptar y finalizar con la instalacion.
 
-<span style="color: #000000;">Presionamos la tecla "Y"  para aceptar y finalizar con la instalacion.</span>
+Ahora ya deberiamos tener instalado nuestro servidor web de bajo consumo en el servidor, tan solo nos falta iniciarlo tecleando en la terminal:
 
-<span style="color: #000000;">Ahora ya deberiamos tener instalado nuestro servidor web de bajo consumo en el servidor, tan solo nos falta iniciarlo tecleando en la terminal:</span>
+{% highlight bash session%}
+# service nginx start
+{% endhighlight %}
 
-<span style="color: #000000;">[bash]service nginx start[/bash]
+y nos vamos a nuestro navegador ingresamos nuestra ip o dominio si el servidor esta online, o "localhost" si es una instalacion local en nuestra pc.
 
-</span>
+con esto veremos la pagina por defecto de Nginx la cual es algo como esto
 
-<span style="color: #000000;">y nos vamos a nuestro navegador ingresamos nuestra ip o dominio si el servidor esta online, o "localhost" si es una instalacion local en nuestra pc.</span>
+<a href="http://blog.jam.net.ve/imagenes/nginx-centos-bienvenida.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/nginx-centos-bienvenida.png" alt="" width="430" height="184" /></a>
 
-<span style="color: #000000;">con esto veremos la pagina por defecto de Nginx la cual es algo como esto</span>
+Bien a mi este cambio de Apache a Nginx me a ido como anillo al dedo pues e podido ahorrar algo de memoria ram y procesos en el cpu que puedo invertir para ejecutar otras aplicaciones que necesite o para no quedarme tan corto en cuanto a memoria ram disponible.
 
-<span style="color: #000000;"><a href="http://blog.jam.net.ve/imagenes/nginx-centos-bienvenida.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/nginx-centos-bienvenida.png" alt="" width="430" height="184" /></a></span>
+Aqui podemos ver el consumo de memoria y procesos en ejecucion teniendo Apache ejecutandose como servidor web.
 
-<span style="color: #000000;">Bien a mi este cambio de Apache a Nginx me a ido como anillo al dedo pues e podido ahorrar algo de memoria ram y procesos en el cpu que puedo invertir para ejecutar otras aplicaciones que necesite o para no quedarme tan corto en cuanto a memoria ram disponible.</span>
+<a href="http://blog.jam.net.ve/imagenes/apache-top-shell.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/apache-top-shell.png" alt="" width="468" height="347" /></a>
 
-<span style="color: #000000;">Aqui podemos ver el consumo de memoria y procesos en ejecucion teniendo Apache ejecutandose como servidor web.</span>
+y aqui vemos como nos a quedado el VPS ejecutando Nginx como servidor web.
 
-<span style="color: #000000;"><a href="http://blog.jam.net.ve/imagenes/apache-top-shell.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/apache-top-shell.png" alt="" width="468" height="347" /></a></span>
-
-<span style="color: #000000;">y aqui vemos como nos a quedado el VPS ejecutando Nginx como servidor web.</span>
-
-<span style="color: #000000;"><a href="http://blog.jam.net.ve/imagenes/nginx-top-shell.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/nginx-top-shell.png" alt="" width="467" height="263" /></a></span>
+<a href="http://blog.jam.net.ve/imagenes/nginx-top-shell.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/nginx-top-shell.png" alt="" width="467" height="263" /></a>
 
 Un ahorro de aproximadamente 15Mb de memoria Ram y un ahorro de 7 procesos menos en ejecucion!!!!!
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: Ubuntu
 title: !binary |-
   SW5zdGFsYXIsIFJlY29uZmlndXJhciB5IEVsaW1pbmFyIFhvcmcgc2luIFJl
   aW5zdGFsYXIgVWJ1bnR1Lg==
@@ -23,17 +24,21 @@ tags:
 
 -  Instalar Xorg
 
-[bash] sudo apt-get install xserver-xorg[/bash]
+{% highlight bash %}
+$ sudo apt-get install xserver-xorg
+{% endhighlight %}
 
 - Configurar Xorg
 
-[bash]sudo dpkg-reconfigure xserver-xorg[/bash]
-
-
+{% highlight bash %}
+$ sudo dpkg-reconfigure xserver-xorg
+{% endhighlight %}
 
 - Eliminar Xorg
 
-[bash]sudo apt-get remove --purge xserver-xorg[/bash]
+{% highlight bash %}
+$ sudo apt-get remove --purge xserver-xorg
+{% endhighlight %}
 
 Espero les sea de utilidad.
 
