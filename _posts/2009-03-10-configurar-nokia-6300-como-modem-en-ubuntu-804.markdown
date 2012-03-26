@@ -29,15 +29,25 @@ tags:
 - !binary |-
   dGVybWluYWw=
 ---
+{% include JB/setup %}
+
 Si alguno de ustedes a leido la pagina "<a title="Acerca de Jamunix Blog" href="http://blog.jam.net.ve/about/" target="_blank">Acerca De...</a>" sabra que mi primera instalacion fija de Ubuntu a fue la 8.10 que todavia uso, pero antes de eso y a modo de pruebas tenia instalado Ubuntu 8.04.  Una de las primeras cosas que queria hacer en Ubuntu apenas lo instale, era conectarme a internet. Luego de buscar por muchos foros y blog encontre un buen post en un blog de otro Venezolano que me ayudo a lograr conectar mi Nokia 6300 Digitel en Ubuntu 8.04
 <p style="text-align: center;"><img class="aligncenter" title="Nokia 6300" src="http://www.jam.net.ve/blog/imagenes/nokia6300.gif" alt="" width="133" height="163" /></p>
 
 Para realizar la configuracion debemos conectar el telefono por USB a la PC en "Modo Nokia" o "Modo Telefono"
 
 Luego abrimos la Consola y tecleamos:
-<blockquote><span style="color: #000000;">dmesg | grep ACM</span></blockquote>
-<span style="color: #000000;">Ese comando deberia devolvernos algo como esto:</span>
-<blockquote><span style="color: #000000;">cdc_acm 1-1:1.0: ttyACM0: USB ACM</span></blockquote>
+
+{% highlight bash session %}
+dmesg | grep ACM
+{% endhighlight %}
+
+Ese comando deberia devolvernos algo como esto:
+
+{% highlight bash session %}
+cdc_acm 1-1:1.0: ttyACM0: USB ACM
+
+
 <span style="color: #000000;">Eso nos hara saber que Ubuntu reconocio el telefono como modem.</span>
 
 <span style="color: #000000;">Ahora teclearemos en la Consola:</span>
