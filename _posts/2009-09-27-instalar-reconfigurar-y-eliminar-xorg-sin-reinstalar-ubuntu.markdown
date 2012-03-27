@@ -20,7 +20,7 @@ tags:
 - !binary |-
   eG9yZw==
 ---
-<strong>X.Org</strong> es una implementación de código abierto del sistema X Windows System.   Para instalar, configurar o eliminar xorg sin reinstalar Ubuntu tan solo abre la consola y teclea el comando segun sea tu caso:
+X.Org es una implementación de código abierto del sistema X Windows System.   Para instalar, configurar o eliminar xorg sin reinstalar Ubuntu tan solo abre la consola y teclea el comando segun sea tu caso:
 
 -  Instalar Xorg
 
