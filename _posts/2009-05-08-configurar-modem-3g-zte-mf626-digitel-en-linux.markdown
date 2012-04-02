@@ -35,6 +35,8 @@ tags:
 - !binary |-
   dGVybWluYWw=
 ---
+{% include JB/setup %}
+
 Este es otra guia que encontre para configurar el modem ZTE MF626 del Bam 3G de Digitel. Lo que deben hacer es lo Siguiente:
 
 1)  Ir a esta pagina web (<a title="http://www.draisberghof.de/usb_modeswitch/" href="http://www.draisberghof.de/usb_modeswitch/">http://www.draisberghof.de/usb_modeswitch/</a>) y descargar el archivo “usb_modeswitch-0.9.6.tar.bz2 en la seccion Downloads.
@@ -47,7 +49,7 @@ Este es otra guia que encontre para configurar el modem ZTE MF626 del Bam 3G de 
 $ sudo make install
 {% endhighlight %}
 
- va a pedir password de root.
+va a pedir password de root.
 
 4) Editar el archivo de configuracion “usb_modeswitch.conf”. Para eso en terminal ejecutar 
 

@@ -30,27 +30,31 @@ tags:
 - !binary |-
   dGVybWluYWw=
 ---
-Shutter es una de las mejores herreamientas que hay en Linux para realizar capturas por sus cantidad de caracteristicas y facilidad de uso. Con Shutter podemos realizar capturas de pantalla del escritorio completo, solo una seleccion, una ventana, secciones de una ventana, un menu, textos de ayuda y capturas de sitios web entre otras caracteristicas.
+{% include JB/setup %}
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2010/09/shutter_192x192.png"><img class="aligncenter size-full wp-image-424" title="shutter_192x192" src="http://blog.jam.net.ve/imagenes/uploads/2010/09/shutter_192x192.png" alt="" width="192" height="192" /></a>
+Shutter es una de las mejores herreamientas que hay en Linux para realizar capturas por sus cantidad de caracteristicas y facilidad de uso. Con Shutter podemos realizar capturas de pantalla del escritorio completo, solo una seleccion, una ventana, secciones de una ventana, un menu, textos de ayuda y capturas de sitios web entre otras caracteristicas.
 
 Primero que nada debemos instalar Shutter si no lo tenemos, por lo que debemos teclear en la terminal:
 
-[bash] sudo apt-get install shutter [/bash]
+{% highlight bash %}
+sudo apt-get install shutter
+{% endhighlight %}
 
 Con esto tendremos instalado Shutter, pero si se fijan, la opcion de capturas de sitios web esta desabilitada y nos dice que tenemos que instalar un paquete gnome-web-photo. Pues bien lo instalamos tecleando en la terminal:
 
-[bash] sudo apt-get install gnome-web-photo [/bash]
+{% highlight bash %}
+sudo apt-get install gnome-web-photo
+{% endhighlight %}
 
 y con esto tendremos habilitada la opcion de capturas web.
 
 Bien para realizar la captura a un sitio web abrimos Shutter:
 
-Aplicaciones &gt; Accesorios &gt; Shutter
+Aplicaciones > Accesorios > Shutter
 
 Nota: Antes que nada deberiamos configurar el ancho del navegador virtual que usara Shutter para realizar una correcta captura. Por lo que luego de abrir Shutter nos vamos a:
 
-Editar &gt; Preferencias.               y seleccionamos la pestaña "Avanzado"
+Editar > Preferencias. y seleccionamos la pestaña "Avanzado"
 
 Al final de la ventana esta la opcion "ancho del navegador virtual" en ella podremos seleccionar el ancho de nuestro monitor.
 
@@ -58,7 +62,9 @@ Continuamos, para realizar la captura hacemos click en la opcion respectiva (ico
 
 Una vez seleccionada la opcion se nos abrira una ventana que nos pide la URL de la pagina web a capturar, bien colocamos la direccion de la pagina que deseamos capturar como por ejemplo:
 
-[bash] http://blog.jam.net.ve [/bash]
+{% highlight bash %}
+http://blog.jam.net.ve
+{% endhighlight %}
 
 y le damos a "Capturar"
 

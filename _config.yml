@@ -3,8 +3,10 @@
 permalink: /:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
+auto: false
 pygments: true
+markdown: rdiscount
+paginate: 10
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -16,7 +18,7 @@ author :
   email : jam@jam.net.ve
   github : jesusangelm
   twitter : jesusangelm
-  feedburner : jesusangelm
+  feedburner : jamunixblog
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -85,7 +87,7 @@ JB :
   analytics :
     provider : google
     google : 
-        tracking_id : 'UA 7436357-1'
+      tracking_id : 'UA 7436357-1'
     getclicky :
       site_id : 
 

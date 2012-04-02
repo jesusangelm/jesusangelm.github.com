@@ -29,9 +29,13 @@ tags:
 - !binary |-
   cmVk
 ---
+{% include JB/setup %}
+
 Navegando por internet me encontre con este script escrito en Bash  que nos permite obtener nuestra ubicacion con tan solo ejecutarlo en la terminal.
 
-[bash] /bin/echo '{&quot;version&quot;: &quot;1.1.0&quot;,&quot;host&quot;: &quot;maps.google.com&quot;,&quot;request_address&quot;: true,&quot;address_language&quot;: &quot;en_GB&quot;, &quot;wifi_towers&quot;: [{&quot;mac_address&quot;: &quot;' $( iwlist wlan0 scan | grep Address | head -1 | awk '{print $5}' | sed -e 's/ //g' ) '&quot;,&quot;signal_strength&quot;: 8,&quot;age&quot;: 0}]}'  | sed -e 's/&quot; /&quot;/' -e 's/ &quot;/&quot;/g' &gt; /tmp/post.$$ &amp;&amp; curl -X POST -d @/tmp/post.$$ http://www.google.com/loc/json | sed -e 's/{/\n/g' -e 's/,/\n/g' [/bash]
+{% highlight bash %}
+/bin/echo '{"version": "1.1.0","host": "maps.<a title="google" href="http://blog.jam.net.ve/tag/google/">google</a>.com","request_address": true,"address_language": "en_GB", "wifi_towers": [{"mac_address": "' $( iwlist wlan0 scan | grep Address | head -1 | awk '{print $5}' | sed -e 's/ //g' ) '","signal_strength": 8,"age": 0}]}'  | sed -e 's/" /"/' -e 's/ "/"/g' > /tmp/post.$$ && curl -X POST -d @/tmp/post.$$ http://www.google.com/loc/json | sed -e 's/{/n/g' -e 's/,/n/g'
+{% endhighlight %}
 
 Hay que tener en cuenta de que para que el script funcione correctamente se debe:
 
@@ -39,8 +43,8 @@ Hay que tener en cuenta de que para que el script funcione correctamente se debe
 
 - Deberias estar conectado a una punto de acceso inalambrico Wi-Fi
 
-- El adaptador de red inalambrico de tu pc debe llamarse wlan0 , si no es tu caso cambialo en el script.
+- El adaptador de red inalambrico de tu pc debe llamarse wlan0 si no es tu caso cambialo en el script.
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2010/08/Pantallazo-4.png"><img class="size-medium wp-image-353 alignleft" title="Pantallazo-4" src="http://blog.jam.net.ve/imagenes/uploads/2010/08/Pantallazo-4-300x93.png" alt="" width="366" height="113" /></a>
+<a href="http://blog.jam.net.ve/imagenes/uploads/2010/08/Pantallazo-4.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/uploads/2010/08/Pantallazo-4-300x93.png" alt="" width="366" height="113" /></a>
 
 Saludos y espero les sirva...

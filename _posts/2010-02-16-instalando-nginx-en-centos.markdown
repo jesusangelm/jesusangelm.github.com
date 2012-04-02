@@ -54,7 +54,7 @@ Uno de los principales problemas con lo que me tope apenas tube los datos de acc
 
 Una de las cosas en la que me fije es que el servicio web Apache consume considerablemente la poca memoria ram disponible y junto al servicio DNS Bind y el servicio de Webmin se tiraban los 128Mb de ram poniendo el VPS en riesgo de que se reinicie o cuelgue.  Bien el servicio Webmin solo se ejecuta cuando quiero accesar al panel, asi que el resto del tiempo esta detenido y sin consumir ni un solo kb de la ram. El servicio Bind, por los momentos no e hallado manera de hacer que consuma menos ram pero es de vital importancia tenerlo ejecutandose para que pueda resolver los dominios y demas configuraciones DNS que le tengo.
 
-Asi que esto de momento me deja con Apache en la mira, pues bien le tengo un sustituto que consume muy poca memoria ram y se ejecuta en tan solo dos (2) procesos contra los nueve (9) que me muestra el Apache. El servidor web que les menciono se llama <a href="http://www.nginx.org/" target="_blank">Nginx</a> y es un servidor web gratuito cuyas principales ventajas es que es super rapido, estable y lo mas importante, muy ligero.
+Asi que esto de momento me deja con Apache en la mira, pues bien le tengo un sustituto que consume muy poca memoria ram y se ejecuta en tan solo dos procesos contra los nueve que me muestra el Apache. El servidor web que les menciono se llama <a href="http://www.nginx.org/" target="_blank">Nginx</a> y es un servidor web gratuito cuyas principales ventajas es que es super rapido, estable y lo mas importante, muy ligero.
 
 Para instalarlo en CentOS primero debemos instalar los Repositorios EPEL tecleando en la terminal:
 
@@ -75,12 +75,12 @@ Instalado dichos repositorios ahora podremos instalar Nginx usando el comando Yu
 
 {% highlight bash %}
 $ sudo yum install nginx
-
+{% endhighlight %}
 
 Durante el proceso se te preguntara si deseas importar la llave GPG de EPEL y te aparecera algo como esto:
 
 {% highlight bash %}
-warning: rpmts_HdrFromFdno: Header V3 DSA signature: NOKEY, key ID 217521f6 Importing GPG key 0x217521F6 &quot;Fedora EPEL &lt;epel@fedoraproject.org&gt;&quot; from /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL Is this ok [y/N]:
+warning: rpmts_HdrFromFdno: Header V3 DSA signature: NOKEY, key ID 217521f6 Importing GPG key 0x217521F6 Fedora EPEL epel@fedoraproject.org from /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL Is this ok [y/N]:
 {% endhighlight %}
 
 Presionamos la tecla "Y"  para aceptar y finalizar con la instalacion.
