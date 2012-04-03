@@ -44,22 +44,39 @@ tags:
 - !binary |-
   bGFwdG9w
 ---
+{% include JB/setup %}
+
+
 Hasta hace unas horas no sabia que podia usar el Acelerometro (lis3lv02d) que tiene mi laptop en Linux, tan solo sabia que lo usa en Windows la aplicacion HP 3D DriveGuard para proteger el disco duro en casos de una posible caida  y golpe contra el suelo. Pero en Linux es posible sacarle provecho al acelerometro para algo mas que proteger el disco duro.
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2010/11/3757_8721.jpg"><img class="aligncenter size-medium wp-image-504" title="3757_8721" src="http://blog.jam.net.ve/imagenes/uploads/2010/11/3757_8721-300x200.jpg" alt="" width="300" height="200" /></a>
+<img class="aligncenter size-medium wp-image-504" title="3757_8721" src="http://blog.jam.net.ve/imagenes/uploads/2010/11/3757_8721-300x200.jpg" alt="" width="300" height="200" />
 
 Una manera de saber que nuestra laptop posee un acelerometro es tecleando en la terminal:
-<pre lang="bash" line="1" escaped="true">cat /sys/devices/platform/lis3lv02d/position</pre>
+
+{% highlight bash %}
+cat /sys/devices/platform/lis3lv02d/position
+{% endhighlight %}
+
 si nos devuelve algo como:
-<pre lang="text" line="1" escaped="true">(18,36,936)</pre>
+
+{% highlight bash %}
+(18,36,936)
+{% endhighlight %}
+
 entonces quiere decir que tenermos un acelerometro correctamente reconocido por Linux, el valor en (18,36,936) representa el eje X,Y,Z .
 
 Buscando en google me encontre con un script en Bash el cual usa el acelerometro de la laptop para rotar las caras del cubo de escritorio de Compiz. el script en cuestion se encuentra en los <a href="https://bbs.archlinux.org/viewtopic.php?id=78031">foros de ArchLinux</a> y fue escrito por el usuario <a href="https://bbs.archlinux.org/viewtopic.php?id=78031">SamoTurk</a>.
 
 Este script requiere que tengamos instalado el paquete wmctrl, por lo que si no lo tienes aun tendras que instalarlo tecleando en la terminal:
-<pre lang="bash" line="1" escaped="true">sudo aptitude install wmctrl</pre>
+
+{% highlight bash %}
+sudo aptitude install wmctrl
+{% endhighlight %}
+
 En realidad son dos script:
-<pre lang="bash" line="1" escaped="true">#!/bin/bash
+
+{% highlight bash %}
+#!/bin/bash
 # lis3lv02d-rotate
 #
 # Author: Samo Turk
@@ -76,9 +93,13 @@ elif [ $POS -le -350 ]; then
 ./compiz-rotate-wmctrl right
 fi
 let COUNTER=COUNTER+1
-done</pre>
+done
+{% endhighlight %}
+
 Este script lo guardaremos en un archivo llamado "lis3lv02d-rotate"
-<pre lang="bash" line="1" escaped="true">#!/bin/bash
+
+{% highlight bash %}
+#!/bin/bash
 #
 # compiz-rotate-wmctrl - Rotate the cube using wmctrl
 #
@@ -108,7 +129,7 @@ echo -e "Released under GPLv3"
 # left or right, accordingly. $ACT could also be the number of the face
 # to rotate into.
 ACT=$(echo $1 |tr '[A-Z]' '[a-z]')
-[ "x$ACT" == "x" ] &amp;&amp; { usage; exit 1; } || {
+[ "x$ACT" == "x" ] && { usage; exit 1; } || {
 case $ACT in
 left|right|[0-9]|[0-9][0-9])
 ;;
@@ -130,18 +151,24 @@ NF=$(($DW/$WW))
 CVPX=$(echo "${INFO}" |awk '{sub(/,[0-9]+/, "", $6); print $6}')
 # Current number of the face in all faces (begins with 0)
 CVPN=$(( ${CVPX} / ${WW} ))
-[ "$ACT" == "right" ] &amp;&amp; {
+[ "$ACT" == "right" ] && {
 ACT=$(( ${CVPN} + 1 ))
 } || {
-[ "$ACT" == "left" ] &amp;&amp; {
+[ "$ACT" == "left" ] && {
 ACT=$(( ${CVPN} - 1 ))
 }
 }
-rotate ${ACT}</pre>
+rotate ${ACT}
+{% endhighlight %}
+
 Y este segundo script lo guardaremos en un archivo llamado "compiz-rotate-wmctrl" en la misma carpeta donde esta el primer script luego le agregamos permisos de ejecucion a ambos archivos.
 
 Para probar este script ejecutamos desde la terminal tecleando:
-<pre lang="bash" line="1" escaped="true">sh ./lis3lv02d-rotate</pre>
+
+{% highlight bash %}
+sh ./lis3lv02d-rotate
+{% endhighlight %}
+
 Ahora solo nos queda inclinar la laptop a la izquierda o derecha y el cubo de escritorio deberia cambiar  en ese sentido similar a como lo muestra este <a href="http://www.youtube.com/watch?v=CtWywn1zbjA">video</a>.
 
 Otras de las utilidades que le posemos dar a el acelerometro es en los juegos NeverBall en el que podemos mover la esfera inclinando la laptop hacia los lados como se ve en este <a href="http://www.youtube.com/watch?v=a92VXK-mURk">video.</a>
@@ -151,11 +178,23 @@ Una tercera utilidad que encontre para el acelerometro es unirse al proyecto <a 
 Por ultimo siempre podremos volver a la utilidad principal para la que el fabricante coloco el acelerometro en las laptops, es decir Proteger nuestro disco duro. En linux podemos usar  el software HPfall el cual usara el acelerometro para detectar movimientos bruscos o caidas y proteger el disco duro en esas situaciones para asi evitar daños o perdida de datos.
 
 Para instalar HPfall debemos agregar el repositorio del autor tecleando en la terminal:
-<pre lang="bash" line="1" escaped="true">sudo apt-add-repository ppa:pmjdebruijn/ppa</pre>
+
+{% highlight bash %}
+sudo apt-add-repository ppa:pmjdebruijn/ppa
+{% endhighlight %}
+
 actualizamos la lista de paquetes
-<pre lang="bash" line="1" escaped="true">sudo aptitude update</pre>
+
+{% highlight bash %}
+sudo aptitude update
+{% endhighlight %}
+
 ahora instalamos HPFALL
-<pre lang="bash" line="1" escaped="true">sudo aptitude install hpfall</pre>
+
+{% highlight bash %}
+sudo aptitude install hpfall
+{% endhighlight %}
+
 Esto nos ejecutara un demonio en cada inicio el cual estara monitoreando junto con el acelerometro los movimientos para asi proteger el disco en caso de una caida.
 
 Este software no tiene ninguna interfaz de configuracion, asi que no te sorprendas si estas buscando un icono en el menu aplicaciones y no encuentras nada, a fin de cuentas el HP 3D DriveGuard tampoco trae mucha cosa que se diga.

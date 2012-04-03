@@ -21,18 +21,28 @@ tags:
 - !binary |-
   cHltb25nbw==
 ---
+{% include JB/setup %}
+
 <a href="http://mongoengine.org/">MongoEngine</a> es un ODM (Object Document Mapper) que nos permite mapear la estructura de nuestra base de datos a objetos en nuestras aplicaciones <a href="http://blog.jam.net.ve/tag/python/">Python</a> que se conectan a instancias <a href="http://blog.jam.net.ve/tag/mongodb/">MongoDB</a>, esto con el fin de poder usar la informacion en nuestra base de datos somo si se tratasen de un objeto. Esto nos ofrece la ventaja de que podemos escribir de una manera mas comoda nuestra aplicacion, definir un esquema para la base de datos y mejorar nuestro codigo, entre otras ventajas mas.
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_024.jpeg"><img class="aligncenter size-medium wp-image-577" title="Selección_024" src="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_024-300x89.jpg" alt="" width="300" height="89" /></a><a href="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_029.jpeg"><img class="aligncenter size-medium wp-image-605" title="Selección_029" src="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_029-300x68.jpg" alt="" width="300" height="68" /></a>
+Para instar MongoEngine en Linux tan solo debemos escribir en la terminal:
 
-Para instar MongoEngine en <a href="http://blog.jam.net.ve/category/linux/">Linux</a> tan solo debemos escribir en la terminal:
-<pre lang="bash" line="1" escaped="true">sudo easy_install mongoengine</pre>
-<strong>Nota:</strong> debido a que MongoEngine usa el driver PyMongo para conectar nuestras aplicaciones Python a bases de datos <a href="http://blog.jam.net.ve/category/nosql/">NoSQL</a> MongoDB, es capaz de detectar si tenemos o no instalado el driver PyMongo, por lo que si no lo tenemos instalado MongoEngine lo instalara automaticamente. De todos modos puedes instalar PyMongo de forma separada tecleando:
-<pre lang="bash" line="1" escaped="true">sudo easy_install pymongo</pre>
+{% highlight bash %}
+sudo easy_install mongoengine
+{% endhighlight %}
+
+**Nota:** debido a que MongoEngine usa el driver PyMongo para conectar nuestras aplicaciones Python a bases de datos NoSQL MongoDB, es capaz de detectar si tenemos o no instalado el driver PyMongo, por lo que si no lo tenemos instalado MongoEngine lo instalara automaticamente. De todos modos puedes instalar PyMongo de forma separada tecleando:
+
+{% highlight bash %}
+sudo easy_install pymongo
+{% endhighlight %}
+
 Si leyeron mi articulo anterior sobre <a href="http://blog.jam.net.ve/2011/01/12/ejemplo-de-consulta-mapreduce-en-mongodb/">Ejemplos de Consultas Map/Reduce en MongoDB</a> de seguro habran leido que al final del articulo mencionaba que en especifico esa consulta map/reduce podriamos mejorarla y hacerlas de una forma mas sencilla y sin funciones JavaScript si usaramos un ODM, pues bien MongoEngine es uno de los ODM con los que podemos mejorar el codigo de la aplicacion RegistroDeTransferencias.
 
 Usando el ODM MongoEngine nuestra aplicacion quedaria similar a esto:
-<pre lang="python" line="1" escaped="true">#! /usr/bin/env python
+
+{% highlight python%}
+#! /usr/bin/env python
 from mongoengine import *
 from datetime import *
 from time import *
@@ -94,34 +104,61 @@ if respuesta == "s":
  print "Total Consumido: " + str(total) + " MB"
 
 else:
- print "Cancelado!"</pre>
+ print "Cancelado!"
+{% endhighlight %}
+
 Como podemos ver en las primeras lineas del codigo, creamos dos clases llamadas <strong>Rsubida</strong> y <strong>Rbajada</strong>, estas clases contienen lo que es la estructura y tipo de datos de lo que contendran nuestros documentos. De esta forma podemos establecer un esquema predeterminado para la informacion que se almacenara en nuestra base de datos. Cabe destacar tambien que por cada clase que se crea, MongoEngine generara una coleccion correspondiente en la base de datos, por lo que en en este ejemplo nuestra base de datos contendra dos colecciones <strong>rsubida</strong> que contendra los registros de subida y <strong>rbajada </strong>que contendra los registros de bajada.
 
-<strong>Consultas: </strong>Aqui esta la parte que mas nos interesa, si nos fijamos en todo el codigo, no vemos por ningun lado las funciones JavaScript Map/Reduce, esto es porque simplemente no las necesitamos para realizar especificamente las consultas que ya teniamos
-<pre lang="python" line="1" escaped="true">#Mostrando todos los registros de bajada en la coleccion
- for rbajada in Rbajada.objects:
- print "Bajada: " + str(rbajada.bajada)</pre>
+**Consultas:** Aqui esta la parte que mas nos interesa, si nos fijamos en todo el codigo, no vemos por ningun lado las funciones JavaScript Map/Reduce, esto es porque simplemente no las necesitamos para realizar especificamente las consultas que ya teniamos:
+
+
+{% highlight python %}
+#Mostrando todos los registros de bajada en la coleccion
+for rbajada in Rbajada.objects:
+  print "Bajada: " + str(rbajada.bajada)
+{% endhighlight %}
+
 el ejemplo de salida de esta seccion del codigo seria algo como esto:
-<pre lang="text" line="1" escaped="true">Bajada: 36.3
+
+{% highlight bash %}
+Bajada: 36.3
 Bajada: 123.0
-Bajada: 66.4</pre>
+Bajada: 66.4
+{% endhighlight %}
+
 Esta seccion del codigo nos mostrara los registros de bajadas que estan contenido en el campo bajada, notese que en esta ocacion no nos devuelve un documento JSON con los datos solicitados (incluyendo su corchetes y comillas), sino que simplemente nos devuelve el valor en especifico.
 
 La seccion del codigo con la que sustituimos las consultas map/reduce y su codigo en javascript es la siguiente:
-<pre lang="python" line="1" escaped="true">print "Total datos Bajada: " + str(Rbajada.objects.sum("bajada")) + " MB"
- print "Total datos Subida: " + str(Rsubida.objects.sum("subida")) + " MB"</pre>
+
+{% highlight python %}
+print "Total datos Bajada: " + str(Rbajada.objects.sum("bajada")) + " MB"
+ print "Total datos Subida: " + str(Rsubida.objects.sum("subida")) + " MB"
+{% endhighlight %}
+
 lo que nos devolvera algo como:
-<pre lang="text" line="1" escaped="true">Total datos Bajada: 225.7 MB
-Total datos Subida: 142.3 MB</pre>
+
+{% highlight bash %}
+Total datos Bajada: 225.7 MB
+Total datos Subida: 142.3 MB
+{% endhighlight %}
+
 Coo vez aqui estamos aprovechando una de los beneficios de usar un ODM, y usar el contenido de nuestra base de datos como si de simples objetos se tratasen ya que con simplemente elegir la clase Rbajada y seleccionando su atributo (variable) "bajada" y haciendo uso del metodo sum() podremos realizar la sumatoria de todo los registros de bajada en en la coleccion Rbajada. Todo esto sin usar map/reduce ni funciones javascript :P
 
 Con esto podemos completar la aplicacion y mostrar el total consumido, es decir, la suma de los datos de subida con los datos de bajada.
-<pre lang="python" line="1" escaped="true">tbajada = Rbajada.objects.sum("bajada")
- tsubida = Rsubida.objects.sum("subida")
- total = tbajada + tsubida
- print "Total Consumido: " + str(total) + " MB"</pre>
+
+{% highlight python %}
+tbajada = Rbajada.objects.sum("bajada")
+tsubida = Rsubida.objects.sum("subida")
+total = tbajada + tsubida
+print "Total Consumido: " + str(total) + " MB"
+{% endhighlight %}
+
 los que nos muestra:
-<pre lang="text" line="1" escaped="true">Total Consumido: 368.0 MB</pre>
+
+{% highlight bash %}
+Total Consumido: 368.0 MB
+{% endhighlight %}
+
 Como vemos, un ODM nos puede facilitar mucho la vida y mejorar nuestras aplicaciones, ademas de acortar un poco el codigo ya que si se fijan. hay muchas menos lineas y mas funciones que la version anterior de la aplicacion que no usa MongoEngine.
 
 Esta aplicacion planeo mejorarla cada vez mas mientras continue aprendiendo sobre Python y MongoDB por loq eu e puesto a disposicion su codigo en <a href="http://github.com/jesuangelm/RegistroDeTransferencias_Mdb_Meng">GitHub</a> para los que quieran descargarlo o solo si les parece util. :)

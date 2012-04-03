@@ -29,6 +29,8 @@ tags:
 - !binary |-
   b2N0YWw=
 ---
+{% include JB/setup %}
+
 Si administras un servidor, una cuenta de hosting o usas una distro Linux es muy probable que en algun momento hayas tenido que cambiar los permisos a alguna carpeta o archivo. En sistemas Linux comunmente se usa el comando chmod seguido de un conjunto de letras y simbolos (notacion simbolica) o seguido de una cifra de 3 digitos (notacion octal), pero en ocasiones usamos estos permisos sin saber que significan o que estan haciendo realmente ya que copiamos el comando de alguna guia o pagina.
 
 Bien en esta ocasion explicare un poco como es el funcionamiento de la notacion octal y como saber el significado de esos numeros que colocamos.
@@ -44,15 +46,31 @@ Para saber que permisos le estamos asignando a un archivo o carpeta podemos vale
 1 - <span style="color: #ff0000;">Ejecucion</span>
 
 La posicion de estos numeros en la cifra tambien tiene un significado, por ejemplo:
-<pre lang="bash" line="1" escaped="true">7 x x</pre>
+
+{% highlight text %}
+7 x x
+{% endhighlight %}
+
 La primera posicion en la cifra significa que ese permiso sera valido para el usuario (propietario del archivo o carpeta).
-<pre lang="bash" line="1" escaped="true">x 7 x</pre>
+
+{% highlight text %}
+x 7 x
+{% endhighlight %}
+
 La segunda posicion en la cifra significa que ese permiso sera valido para el grupo.
-<pre lang="bash" line="1" escaped="true">x x 7</pre>
+
+{% highlight bash %}
+x x 7
+{% endhighlight %}
+
 La tercera posicion en la cifra significa que ese permiso sera valido para el publico.
 
 Si por ejemplo escribimos un comando como este:
-<pre lang="bash" line="1" escaped="true">chmod 421 archivo.txt</pre>
+
+{% highlight bash %}
+chmod 421 archivo.txt
+{% endhighlight %}
+
 Lo que estariamos haciendo es:
 
 - Permitirle al dueño <span style="color: #00ff00;">leer</span> (abrir/ver) el archivo.txt
@@ -62,11 +80,19 @@ Lo que estariamos haciendo es:
 - Permitirle al resto de los usuarios o el publico <span style="color: #ff0000;">ejecutar</span> el archivo.txt
 
 Hasta aqui todo se entiende a simple vista, pero de seguro te estaras preguntando ¿como hacer si quiero que el usuario tenga permisos de lectura-escritura y permisos de solo lectura a los grupos y el publico? Pues bien muy facil, los valores octales pueden conbinarse (sumarse), veamos este ejemplo:
-<pre lang="bash" line="1" escaped="true">chmod 644 archivo.txt</pre>
+
+{% highlight bash %}
+chmod 644 archivo.txt
+{% endhighlight %}
+
 Aqui estariamos combinando (sumando) el valor octal para el permiso de <span style="color: #00ff00;">lectura</span> y el valor octal para el permiso de<span style="color: #00ffff;"> <span style="color: #3366ff;">escritura</span></span>, los que nos daria como resultado 6 que seria igual a el permiso <span style="color: #00ff00;">Lectura</span>-<span style="color: #3366ff;">Escritura</span>.  Al grupo y al publico se le asigna el valor octal 4 que seria el equivalente al permiso de solo <span style="color: #00ff00;">lectura</span>.
 
 Otro caso podria ser este ejemplo:
-<pre lang="bash" line="1" escaped="true">chmod 750 archivo.txt</pre>
+
+{% highlight bash %}
+chmod 750 archivo.txt
+{% endhighlight %}
+
 En este caso estariamos:
 
 - Asignandole permisos de <span style="color: #00ff00;">lectura</span>-<span style="color: #3366ff;">escritura</span>-<span style="color: #ff0000;">ejecucion</span> al usuario.
