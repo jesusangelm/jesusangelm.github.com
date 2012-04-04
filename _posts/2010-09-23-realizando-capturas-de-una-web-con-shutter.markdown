@@ -70,6 +70,6 @@ y le damos a "Capturar"
 
 Ya con esto Shutter procesara la pagina y realizara la captura respectiva.  y lo que nos devolvera seria algo como esto:
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2010/09/blog-jamunix.jpg"><img class="aligncenter size-medium wp-image-425" title="blog-jamunix" src="http://blog.jam.net.ve/imagenes/uploads/2010/09/blog-jamunix-63x300.jpg" alt="" width="63" height="300" /></a>
+<a href="http://imgur.com/BrLp1"><img src="http://i.imgur.com/BrLp1s.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Saludos y espero les sirva!

@@ -81,14 +81,14 @@ http://localhost:10000
 El puerto 10000 es en el que el servicio de webmin escucha para poder permitirnos entrar al panel, pero en ocaciones y luego de una instalacion no es posible accesar ya que el servicio de webmin no esta corriendo. para iniciarlo teclamos en la terminal:
 
 {% highlight bash %}
-# service webmin start
+ service webmin start
 {% endhighlight %}
 
 e ingresamos de nuevo http://localhost:10000 en el navegador.
 
 y listo tenemos nuestro panel de control instalado y funcionando.
 
-<a href="http://blog.jam.net.ve/imagenes/webmin-login.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/webmin-login.png" alt="" width="402" height="206" /></a>
+<a href="http://imgur.com/HCRI4"><img src="http://i.imgur.com/HCRI4l.png" title="Hosted by imgur.com" alt="" /></a>
 
 Bien pero el post menciona tambien a CentOS, pues hace unas semanas pude tener acceso a un VPS para hacer pruebas, y una de las primeras cosas que hice fue instalar Webmin. Este VPS tiene como sistema operativo CentOS 5.4 y los pasos para instalar Webmin son basicamente los mismo.
 

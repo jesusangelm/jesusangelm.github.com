@@ -88,24 +88,24 @@ Presionamos la tecla "Y"  para aceptar y finalizar con la instalacion.
 Ahora ya deberiamos tener instalado nuestro servidor web de bajo consumo en el servidor, tan solo nos falta iniciarlo tecleando en la terminal:
 
 {% highlight bash session%}
-# service nginx start
+service nginx start
 {% endhighlight %}
 
 y nos vamos a nuestro navegador ingresamos nuestra ip o dominio si el servidor esta online, o "localhost" si es una instalacion local en nuestra pc.
 
 con esto veremos la pagina por defecto de Nginx la cual es algo como esto
 
-<a href="http://blog.jam.net.ve/imagenes/nginx-centos-bienvenida.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/nginx-centos-bienvenida.png" alt="" width="430" height="184" /></a>
+<a href="http://imgur.com/N3UNu"><img src="http://i.imgur.com/N3UNul.png" title="Hosted by imgur.com" alt="" /></a>
 
 Bien a mi este cambio de Apache a Nginx me a ido como anillo al dedo pues e podido ahorrar algo de memoria ram y procesos en el cpu que puedo invertir para ejecutar otras aplicaciones que necesite o para no quedarme tan corto en cuanto a memoria ram disponible.
 
 Aqui podemos ver el consumo de memoria y procesos en ejecucion teniendo Apache ejecutandose como servidor web.
 
-<a href="http://blog.jam.net.ve/imagenes/apache-top-shell.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/apache-top-shell.png" alt="" width="468" height="347" /></a>
+<a href="http://imgur.com/z4TUu"><img src="http://i.imgur.com/z4TUu.png" title="Hosted by imgur.com" alt="" /></a>
 
 y aqui vemos como nos a quedado el VPS ejecutando Nginx como servidor web.
 
-<a href="http://blog.jam.net.ve/imagenes/nginx-top-shell.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/nginx-top-shell.png" alt="" width="467" height="263" /></a>
+<a href="http://imgur.com/VRgUx"><img src="http://i.imgur.com/VRgUx.png" title="Hosted by imgur.com" alt="" /></a>
 
 Un ahorro de aproximadamente 15Mb de memoria Ram y un ahorro de 7 procesos menos en ejecucion!!!!!
 

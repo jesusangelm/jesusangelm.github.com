@@ -51,7 +51,7 @@ Desde hace unos meses para aca e estado leyendo un poco de las grandes posibilid
 
 - Iptraf:  Es una aplicacion basada en la terminal de estadisticas de red. tiene como caracteristicas el conteo de bytes y monitoreo de conexiones de paquetes TCP. Tambien ofrece estadisticas de las interfaces de red (eth0, ppp0, wlan0, etc) e indicadores de actividad, tambien nos muestra las interrupciones de trafico TCP/UDP.
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2010/10/iptraf-iptm1.gif"><img class="aligncenter size-medium wp-image-453" title="iptraf-iptm1" src="http://blog.jam.net.ve/imagenes/uploads/2010/10/iptraf-iptm1-300x188.gif" alt="" width="300" height="188" /></a>
+<a href="http://imgur.com/kVLFF"><img src="http://i.imgur.com/kVLFFl.gif" title="Hosted by imgur.com" alt="" /></a>
 
 Para instalarlo tan solo tecleamos en una terminal:
 {% highlight bash %}
@@ -66,7 +66,7 @@ sudo iptraf
 
 - Iftop: Escucha el trafico que hay en una interfaz de red y nos muestra en una tabla el ancho de banda consumido ademas del nombre de host remoto al cual estamos conectados y el puerto usado para la conexion.
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2010/10/iftop_normal.png"><img class="aligncenter size-medium wp-image-454" title="iftop_normal" src="http://blog.jam.net.ve/imagenes/uploads/2010/10/iftop_normal-300x183.png" alt="" width="300" height="183" /></a>
+<a href="http://imgur.com/K8pwa"><img src="http://i.imgur.com/K8pwal.png" title="Hosted by imgur.com" alt="" /></a>
 
 Para instalarlo tan solo debemos teclear en una terminal:
 
@@ -84,7 +84,7 @@ Nota: cambie ppp0 por su interfaz de red. ejemplo: eth0 (cableada), wlan0 (inala
 
 - Ifstat: es una herramienta para informarnos sobre el ancho de banda de las interfaces de red muy similar a  vmstat/iostat.
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2010/10/Selección_002.jpeg"><img class="aligncenter size-medium wp-image-455" title="Selección_002" src="http://blog.jam.net.ve/imagenes/uploads/2010/10/Selección_002-300x234.jpg" alt="" width="300" height="234" /></a>
+<a href="http://imgur.com/Woif2"><img src="http://i.imgur.com/Woif2l.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Para instalarlo tan solo ejecutamos en una terminal:
 

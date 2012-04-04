@@ -40,22 +40,20 @@ Bien luego de esto y en otro proceso de migracion de servidor mas, me propuse ha
 descargarla para luego trasladarla al nuevo servidor. Esto lo podemos hacer por medio del cPanel con la herramienta 
 "Administrador de Archivos" seleccionamos la carpeta con el contenido del blog y le damos a "Comprimir"
 
-<a href="http://blog.jam.net.ve/imagenes/migrarwphosting/boton-aac.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/migrarwphosting/boton-aac.png" alt="" width="201" height="55" /></a>
+<a href="http://imgur.com/sfcjt"><img src="http://i.imgur.com/sfcjtl.png" title="Hosted by imgur.com" alt="" /></a>
 
-<a href="http://blog.jam.net.ve/imagenes/migrarwphosting/comp.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/migrarwphosting/comp.png" alt="" width="142" height="80" /></a>
+<a href="http://imgur.com/lV9ph"><img src="http://i.imgur.com/lV9phl.png" title="Hosted by imgur.com" alt="" /></a>
 
 - Luego de esto debemos sacar un respaldo a la Base de Datos del blog, esto lo podemos hacer usando el PhpMyAdmin que esta en el 
 cPanel, dandole a la pestaña "Exportar" luego seleccionamos la base de datos en el recuadro del lado superior izquierdo y marcamos la 
 opcion "SQL" en la parte inferior izquierda. Si deseamos comprimir la base de datos la comprimimos seleccionando cualquiera de los dos 
 formatos disponibles y le damos a continuar. Esto nos iniciara la descarga de la base de datos de nuetro blog.
 
-<a href="http://blog.jam.net.ve/imagenes/migrarwphosting/boton-pmac.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/migrarwphosting/boton-pmac.png" alt="" width="158" height="62" /></a>
+<a href="http://imgur.com/Dn9rU"><img src="http://i.imgur.com/Dn9rUl.png" title="Hosted by imgur.com" alt="" /></a>
 
-<a href="http://blog.jam.net.ve/imagenes/migrarwphosting/etiq-impexp.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/migrarwphosting/etiq-impexp.png" alt="" width="225" height="62" /></a>
+<a href="http://imgur.com/L7m68"><img src="http://i.imgur.com/L7m68l.png" title="Hosted by imgur.com" alt="" /></a>
 
-<a href="http://blog.jam.net.ve/imagenes/migrarwphosting/sql-exp.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/migrarwphosting/sql-exp.png" alt="" width="196" height="181" /></a>
-
-<a href="http://blog.jam.net.ve/imagenes/migrarwphosting/pma-comp.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/migrarwphosting/pma-comp.png" alt="" width="550" height="127" /></a>
+<a href="http://imgur.com/mmTy0"><img src="http://i.imgur.com/mmTy0s.png" title="Hosted by imgur.com" alt="" /></a>
 
 Antes que nada deberiamos verificar que en el nuevo servidor nuestro directorio home se llame igual que en el servidor anterior, 
 esto en cPanel lo podemos verificar en el panel superior izquierda en donde dice "Directorio Home" si es el mismo podemos pasar a 
@@ -80,7 +78,7 @@ una vez editada la base de datos guardamos los cambios y podemos proceder a impo
 seleccionando la pestaña "Importar" y luego agregando la ruta de la base de datos en nuestra pc por medio del boton 
 "Browse" le damos al boton "Continuar"
 
-<a href="http://blog.jam.net.ve/imagenes/migrarwphosting/imp-sql.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/migrarwphosting/imp-sql.png" alt="" width="600" height="122" /></a>
+<a href="http://imgur.com/KD0fs"><img src="http://i.imgur.com/KD0fss.png" title="Hosted by imgur.com" alt="" /></a>
 
 si todo a ido bien deberiamos tener importada con exito la base de datos de nuetro blog en el nuevo servidor.
 
@@ -95,13 +93,13 @@ publica (public_html o httpd o html) usando el comando "wget" de este modo:
 una ves transferido los archivos al nuevo hosting debemos descomprimirlo, para esto podemos usar de nuevo el 
 "Administrador de archivos" en el cPanel, seleccionamos el archivo compromido y le damos a la opcion "Extraer"
 
-<a href="http://blog.jam.net.ve/imagenes/migrarwphosting/comp.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/migrarwphosting/comp.png" alt="" width="142" height="80" /></a>
+<a href="http://imgur.com/lV9ph"><img src="http://i.imgur.com/lV9phl.png" title="Hosted by imgur.com" alt="" /></a>
 
 - Bien ahora solo nos falta configurar la nueva conexion entre el blog y la base de datos, para esto debemos crear el usuario 
 de la base de datos en el nuevo servidor y otorgarles sus respectivos privilegios, esto lo podemos hacer en el mismo cPanel 
 en la opcion "MySql Basesde Datos".
 
-<a href="http://blog.jam.net.ve/imagenes/migrarwphosting/boton-mc.png"><img class="alignnone" src="http://blog.jam.net.ve/imagenes/migrarwphosting/boton-mc.png" alt="" width="198" height="51" /></a>
+<a href="http://imgur.com/ftMQd"><img src="http://i.imgur.com/ftMQdl.png" title="Hosted by imgur.com" alt="" /></a>
 
 Como nombre de usuarios puedes usar los mismos que tenias en el anterior hosting, al igual que la contraseña 
 (aunque es aconsejable cambiarla para mayor seguridad).  Tambien en esta misma seccion del cPanel debemos añadir el usuario 

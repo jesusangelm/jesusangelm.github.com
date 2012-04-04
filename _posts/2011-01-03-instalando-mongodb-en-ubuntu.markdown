@@ -17,7 +17,7 @@ tags:
 
 Despues de unos cuantos articulos dedicados a la Base de Datos <a href="http://blog.jam.net.ve/category/nosql/">NoSQL</a> <a href="http://blog.jam.net.ve/tag/couchdb/">CouchDB</a> pasare a comentarles algunas pruebas que e realizado usando MongoDB
 
-<img class="aligncenter" title="Selección_024" src="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_024-300x89.jpg" alt="" width="300" height="89" />
+<a href="http://imgur.com/ZgBVN"><img src="http://i.imgur.com/ZgBVNl.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 <a href="http://www.mongodb.org">MongoDB</a> es otro de los sistemas de bases de datos NoSQL, similar a CouchDB que a tenido mayor popularidad, este sistema de base de datos algunos los llaman "La MySQL de las NoSQL" y esto es porque a parte de tener la aceptacion y popularidad que tubo MySQL en sus inicios, MongoDB comparte muchas caracteristicas que son similares a las ya vistas en MySQL pero orientada a el movimiento NoSQL.  Una de estas caracteristicas por ejemplo es que en MongoDB no existen Tablas (claro es una NoQSL) pero si existen Colecciones las cuales podrian ser algo asi como las tablas, solo que estas no se rigen por ningun esquema predefinido  y cualquier coleccion puede contener muchos documentos  con distintos campos. Esto es algo que en lo personal me a gustado mucho en MongoDb ya que ayudan a organizar y clasificar mejor la informacion almacenada ademas de facilitar las consultas y agilizar las mismas.
 

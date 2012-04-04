@@ -30,6 +30,9 @@ tags:
 
 Hace poco mas de una semana adquirí un teléfono con S.O Android, específicamente el Samsung Galaxy Spica I5700 de Digitel, luego de jurungarlo por unas cuantas horas viendo y probando todas sus funciones me encontré con que no podía instalar muchas de las mejores aplicaciones disponibles para Android por el simple hecho de que el teléfono viene con Android 1.5 Cupcake, el cual es ya una versión desactualizada, por lo que para exprimir mejor las funciones del equipo debería actualizar como mínimo a Android 2.1 Eclair o superiores.
 
+<a href="http://imgur.com/rHHwV"><img src="http://i.imgur.com/rHHwV.jpg" title="Hosted by imgur.com" alt="" /></a>
+<a href="http://imgur.com/3zjoa"><img src="http://i.imgur.com/3zjoa.jpg" title="Hosted by imgur.com" alt="" /></a>
+<a href="http://imgur.com/KHhzg"><img src="http://i.imgur.com/KHhzg.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 
 Buscando en internet encontré mucha información para actualizar el Galaxy Spica i5700  a Eclair o incluso ir mas allá y actualizar a Froyo o Gingerbread, pero muchas de ellas se realizan con métodos un tanto extraños (Flasheando con Odin y/o aplicar roms con Recovery) a simple  vista para alguien como yo que apenas tenia unas horas de experiencia en Android y teléfonos inteligentes, por lo que decidí dejarlas a un lado para estudiar mejor los procedimientos e intentarlo de forma segura en un futuro cercano.

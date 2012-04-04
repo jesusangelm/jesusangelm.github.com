@@ -18,7 +18,7 @@ tags:
 
 Y seguimos con mas pruebas de <a href="http://blog.jam.net.ve/category/nosql/">NoSQL</a> :D ... Hace unos dias comentaba como <a href="http://blog.jam.net.ve/2011/01/03/instalando-mongodb-en-ubuntu/">instalar MongoDB en Ubuntu 10.10</a>, ahora veremos algunos usos basicos de la consola de administracion que incluye MongoDB para almacenar informacion, hacer algunas consultas entre otras tareas administrativas.
 
-<img class="aligncenter size-medium wp-image-577" title="Selección_024" src="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_024-300x89.jpg" alt="" width="300" height="89" />
+<a href="http://imgur.com/ZgBVN"><img src="http://i.imgur.com/ZgBVNl.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Para acceder a la consola administrativa de MongoDB tan solo debemos escribir en la teminal:
 

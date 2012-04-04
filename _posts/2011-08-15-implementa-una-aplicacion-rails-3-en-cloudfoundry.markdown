@@ -25,7 +25,7 @@ tags:
 
 <a href="http://cloudfoundry.com/">CloudFoundry</a> es la plataforma abierta como proyecto de servicios iniciada por VMware la cual puede soportar múltiples frameworks, varios servicios cloud de algunos proveedores , y múltiples aplicaciones de servicios. todo esto en una plataforma escalable en la nube.
 
-<img class="aligncenter" src="http://blog.jam.net.ve/imagenes/uploads/2011/08/VMW-LGO-CloudFoundry-217-square-300x300.png" alt="" width="300" height="300" />
+<a href="http://imgur.com/NLWkg"><img src="http://i.imgur.com/NLWkg.png" title="Hosted by imgur.com" alt="" /></a>
 
 Estos servicios están actualmente en version Beta, por lo que de momento son gratuitos pero se requiere de una invitación que puedes solicitar en la pagina de CloudFoundry. casualmente hoy me llego mi invitación (apenas la había pedido ayer) por lo me pude darle un vistazo rápido a la plataforma y hacer unas primeras pruebas.
 
@@ -100,7 +100,7 @@ podemos ir a la url indicada en el "cuestionario" y ver nuestra aplicación en
 
 así de fácil :D
 
-<img class="aligncenter" title="Selección_066" src="http://blog.jam.net.ve/imagenes/uploads/2011/08/Selección_066-300x63.jpg" alt="" width="300" height="63" />
+<a href="http://imgur.com/zm5RV"><img src="http://i.imgur.com/zm5RVs.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Claro esta, esto es solo el principio, aplicaciones mas complejas requieren configuraciones y pasos mas complejos.
 

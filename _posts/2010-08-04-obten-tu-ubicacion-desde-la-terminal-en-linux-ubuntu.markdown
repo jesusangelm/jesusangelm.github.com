@@ -45,6 +45,7 @@ Hay que tener en cuenta de que para que el script funcione correctamente se debe
 
 - El adaptador de red inalambrico de tu pc debe llamarse wlan0 si no es tu caso cambialo en el script.
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2010/08/Pantallazo-4.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/uploads/2010/08/Pantallazo-4-300x93.png" alt="" width="366" height="113" /></a>
+
+<a href="http://imgur.com/KUg90"><img src="http://i.imgur.com/KUg90l.png" title="Hosted by imgur.com" alt="" /></a>
 
 Saludos y espero les sirva...

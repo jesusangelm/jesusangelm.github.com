@@ -21,7 +21,7 @@ tags:
 
 Ayer les comentaba que tenia meses leyendo sobre CouchDB, sus usos y <a href="http://blog.jam.net.ve/2010/12/12/instalando-couchdb-en-ubuntu/">como instalarlo en Ubuntu</a>. Pues hoy les mostrare como instalar Couchdbkit y como crear una sencilla aplicacion de ejemplo que almacena informacion en nuestra base de datos CouchDB.
 
-<img class="aligncenter" title="Selección_011" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_011.jpeg" alt="" width="192" height="167" />
+<a href="http://imgur.com/EUNoH"><img src="http://i.imgur.com/EUNoH.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Para los que no saben, <a href="http://couchdbkit.org/">Couchdbkit</a> es un Framework que le permite a nuestras aplicaciones Python conectarse a una base de datos CouchDB.
 
@@ -119,11 +119,11 @@ python contactosapp.py
 
 con esto te solicitara los datos del contacto (nombre, apellido, correo y telefono), generara el documento y lo almacenara en la base de datos CouchDB  :-)
 
-<img class="aligncenter" title="Selección_014" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_014-300x180.jpg" alt="" width="300" height="180" />
+<a href="http://imgur.com/CAOhd"><img src="http://i.imgur.com/CAOhdl.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Aqui podemos ver la aplicacion ejecutandose... y como pueden observar es sumamente sencilla. Si ahora abrimos Futon en el navegador y observamos nuestra base de datos nos encontraremos con el documento recien almacenado que contienen los datos del contacto que acabamos de añadir:
 
-<img class="aligncenter" title="Selección_015" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_015-300x96.jpg" alt="" width="300" height="96" />
+<a href="http://imgur.com/Ln0io"><img src="http://i.imgur.com/Ln0ios.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Si eres de los que no quieren tener una base de datos corriendo en su PC pero quieres probarla y aprender a usarla entonces estas de suerte ya que <a href="http://www.couchone.com/get">CouchOne</a> y <a href="https://cloudant.com/">Coudant</a> ofrecen hosting Cloud de CouchDB Gratis!!! con lo que prodras tener una interfaz Futon online en donde administrar tus bases de datos.
 

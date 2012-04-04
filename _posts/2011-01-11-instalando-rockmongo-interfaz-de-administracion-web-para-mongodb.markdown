@@ -19,7 +19,7 @@ tags:
 
 En el mundo de las bases de datos relacionales, una de las formas mas usadas para administrar una base de datos es usando una interfaz web, esto sobretodo si el usuario no cuenta con un acceso shell a su cuenta de hosting. En las bases de datos relacionales por lo general se usa aplicaciones escritas en PHP como phpMyAdmin para MySQL y phpPgAdmin para PostgreSQL.
 
-<img class="aligncenter size-medium wp-image-577" title="Selección_024" src="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_024-300x89.jpg" alt="" width="300" height="89" />
+<a href="http://imgur.com/ZgBVN"><img src="http://i.imgur.com/ZgBVNl.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Bien en el mundo de las bases de datos NoSQL hay aplicaciones web similares, una de ellas es <a href="https://code.google.com/p/rock-php/">RockMongo</a> la cual esta escrita en PHP y posee una interfaz bastante intuitiva y un tanto similar a phpMyAdmin. Instalar RockMongo es sumamente sencillo y al estar escrita en PHP lo unico que requerimos es tener instalado y corriendo un servicio web como Nginx, Apache o similares, el lenguaje PHP y el driver correspondiente para accesar a MongoDB desde PHP.
 
@@ -77,8 +77,7 @@ http://localhost/rockmongo
 
 luego de loguearte como admin veras algo como esto:
 
-<img class="aligncenter size-medium wp-image-597" title="Selección_028" src="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_028-300x137.jpg" alt="" width="300" height="137" />
-
+<a href="http://imgur.com/gMehz"><img src="http://i.imgur.com/gMehzs.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 **Nota:** es probable que al teclear esta direccion en el navegador no veas nada o veas un error, es posible que requieras darle los permisos de lectura-escritura-ejecucion necesarios a la carpeta rockmongo y sus archivos.
 

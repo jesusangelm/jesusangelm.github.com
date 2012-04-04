@@ -107,4 +107,4 @@ ZSH_THEME="jam"
 
 y mi shell se ve asi:
 
-<img class="aligncenter size-medium wp-image-823" title="jamzshtheme" src="http://blog.jam.net.ve/imagenes/uploads/2011/08/jamzshtheme-300x71.jpg" alt="" width="300" height="71" />
+<a href="http://imgur.com/GqNVC"><img src="http://i.imgur.com/GqNVCl.jpg" title="Hosted by imgur.com" alt="" /></a>

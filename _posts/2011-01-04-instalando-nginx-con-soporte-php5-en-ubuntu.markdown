@@ -18,7 +18,7 @@ tags:
 
 Hace unos meses atras escribi un articulo en el que explicaba como <a href="http://blog.jam.net.ve/2010/02/16/instalando-nginx-en-centos/">Instalar Nginx en CentOS</a>,  en aquellos tiempos tenia el servidor dedicado con CentOS en el que hacia las pruebas.  Ahora les paso a explicar como instalar el servicio web <a href="http://nginx.org/">Nginx</a> con soporte para PHP5 (a travez de <a href="http://php-fpm.org/">PHP-FPM</a> - Administrador de procesos FastCGI ) en <a href="http://blog.jam.net.ve/category/ubuntu/">Ubuntu</a> 10.10 y asi tener un servidor web local para hacer pruebas con PHP, instalar algun CMS, instalar alguna interfaz de administracion para <a href="http://blog.jam.net.ve/tag/mongodb/">MongoDB</a> :P , etc.
 
-<img class="aligncenter size-medium wp-image-583" title="Nginx-logo" src="http://blog.jam.net.ve/imagenes/uploads/2011/01/Nginx-logo-300x65.png" alt="" width="300" height="65" />
+<a href="http://imgur.com/hn3A1"><img src="http://i.imgur.com/hn3A1.png" title="Hosted by imgur.com" alt="" /></a>
 
 Para esto lo primero que debemos hacer es instalar Nginx tecleando en la terminal:
 
@@ -148,6 +148,6 @@ http://localhost/info.php
 
 si todo a ido bien veremos algo como esto:
 
-<img class="aligncenter" title="Selección_026" src="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_026-278x300.jpg" alt="" width="278" height="300" /></a>
+<a href="http://imgur.com/RBYxA"><img src="http://i.imgur.com/RBYxAl.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Bien ya tienes instalado Nginx con soporte PHP5 mediante FastCGI (php5-fpm) :P

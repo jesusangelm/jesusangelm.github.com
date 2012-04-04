@@ -49,7 +49,7 @@ tags:
 
 Hasta hace unas horas no sabia que podia usar el Acelerometro (lis3lv02d) que tiene mi laptop en Linux, tan solo sabia que lo usa en Windows la aplicacion HP 3D DriveGuard para proteger el disco duro en casos de una posible caida  y golpe contra el suelo. Pero en Linux es posible sacarle provecho al acelerometro para algo mas que proteger el disco duro.
 
-<img class="aligncenter size-medium wp-image-504" title="3757_8721" src="http://blog.jam.net.ve/imagenes/uploads/2010/11/3757_8721-300x200.jpg" alt="" width="300" height="200" />
+<a href="http://imgur.com/Qg7uI"><img src="http://i.imgur.com/Qg7uI.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Una manera de saber que nuestra laptop posee un acelerometro es tecleando en la terminal:
 

@@ -21,7 +21,7 @@ tags:
 
 Una de las ventajas de ser programador es que puedes escribir uno mismo sus aplicaciones para resolver un problema determinado que se tenga, y pues yo tenia un problema :D . Resulta que mi unica conexion a internet es mediante un Modem USB, estos modem vienen con un software que solo funciona bajo Windows (algunos funcionan en MacOS) que te permite llevar un registro de las transferencias de datos consumidas y asi saber cuando estas a punto de consumirte tu cuota mensual de datos. Pues como solo uso <a href="http://blog.jam.net.ve/category/linux/">Linux</a> estos registros los llevava era en notas (tomboy) escribiendo los datos de subida y bajada que consumia despues de desconectarme.
 
-<img class="aligncenter" title="Selección_011" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_011.jpeg" alt="" width="192" height="167" />
+<a href="http://imgur.com/EUNoH"><img src="http://i.imgur.com/EUNoH.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Este metodo que usaba me era un tanto engorroso y no era muy fiable ya que mas de una vez perdi algunas notas o las borraba accidentalmente. Luego de aprender las funciones mas basicas de CouchDB, Python y Couchdbkit se me ocurrio escribir una aplicacion de consola que me facilite el registro de mis transferencias y que los almacene en un entorno confiable.
 
@@ -96,11 +96,11 @@ python registrodetransferenciasapp.py
 
 y veremos algo como esto:
 
-<img class="aligncenter" title="Selección_018" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_018-300x233.jpg" alt="" width="300" height="233" />
+<a href="http://imgur.com/pFFp0"><img src="http://i.imgur.com/pFFp0l.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Al ingresar en Futon para verificar los documentos creados veremos algo como esto:
 
-<img class="aligncenter" title="Selección_019" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_019-300x88.jpg" alt="" width="300" height="88" />
+<a href="http://imgur.com/Q9qZ4"><img src="http://i.imgur.com/Q9qZ4s.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Para visualizar de una forma sencilla en Futon los datos almacenados y/o calcular el total consumido podriamos usar las funciones Map/Reduce escritas en JavaScript, pero esto se los mostrare en otro articulo proximamente. :P
 

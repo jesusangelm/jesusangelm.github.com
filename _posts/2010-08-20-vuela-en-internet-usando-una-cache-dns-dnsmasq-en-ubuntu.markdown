@@ -19,7 +19,7 @@ conoce de antemano la ip correspondiente.
 
 Antes de instalar Dnsmasq vemos los tiempos aproximados que se tarda mi conexion en resolver la ip de un dominio:
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2010/08/Pantallazo-23.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/uploads/2010/08/Pantallazo-23-300x134.png" width="300" height="134" /></a>
+<a href="http://imgur.com/CdclQ"><img src="http://i.imgur.com/CdclQl.png" title="Hosted by imgur.com" alt="" /></a>
 
 Para instalar Dnsmasq tan solo debemos ejecutar en la terminal la siguiente orden, pero antes asegurese de tener 
 activado los repositorios "universe"
@@ -88,7 +88,7 @@ Por ultimo consultamos 2 veces el mismo dominio para ver el tiempo que se toma 
 para que haga la consulta a internet y permitir que dnsmasq la almacene en cache y la segunda para que se realice 
 la consulta de manera local ya que dnsmasq conoce ya la ip resultante y no se necesita hacer consultas al exterior.
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2010/08/Pantallazo-24.png"><img class="aligncenter" src="http://blog.jam.net.ve/imagenes/uploads/2010/08/Pantallazo-24-300x128.png" width="300" height="128" /></a>
+<a href="http://imgur.com/hFRl9"><img src="http://i.imgur.com/hFRl9l.png" title="Hosted by imgur.com" alt="" /></a>
 
 como ven ahora es mucho mas rapido si se realizan consultas locales a dominios ya resueltos con anterioridad.
 

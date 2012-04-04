@@ -27,6 +27,7 @@ tags:
 
 Sigo aprendiendo cada vez mas sobre Android, aunque con algunos tropezones. Hace unas semanas comentaba como actualice mi <a title="Actualizar de Android 1.5 Cupcake a Android 2.1 Eclair en un Galaxy Spica I5700" href="http://blog.jam.net.ve/2011/09/17/actualizando-de-android-1-5-cupcake-a-android-2-1-eclair-en-un-samsung-galaxy-spica-i5700-digitel-venezuela/" target="_blank">Galaxy Spica I5700 de Android 1.5 Cupcake (Oficial Digitel) a Android 2.1 Eclair (Oficial Digitel)</a>, las mejoras eran ya muy notables en esa actualización pero... se puede mejorar mucho mas!!! si actualizamos a alguna de las tantas Rom personalizadas de Android 2.2 Froyo. Pues estuve leyendo sobre las ventajas de hacer una nueva actualización y a la final note que me convenía mucho.
 
+<a href="http://imgur.com/qGAuu"><img src="http://i.imgur.com/qGAuu.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Pues bien la room que elegí fue CyanogenMod 6.1.1 Spica Alpha 8.4 la cual esta basada en Froyo 2.2.1 e incluye mejoras interesantes como soporte 3D y soporte MultiTouch, al ser Froyo también corrige el bug en Eclair de la cámara que se queda oscura cuando se toman fotos estando conectada al Wifi. Por ser una room modificada, incluye un kernel actualizado con muchas mejoras como por ejemplo tener un <a title="Recovery Wiki en Samdroid.net" href="http://forum.samdroid.net/wiki/showwiki/Recovery" target="_blank">recovery</a> el cual es una muy buena utilidad que nos permitiria hacer cosas como por ejemplo ser root desde que enciendes el teléfono :D, hacer respaldos, aplicar actualizaciones y/o modificaciones comprimidas en .zip, instalar nuevas room, particionar la MicroSD, entre muchas otras funciones (tambien depende del kernel que instales).
 
@@ -78,25 +79,25 @@ Una vez que tengas instalado los drivers, ayas descargado Odin, la Room de Froyo
 
 5- Verifica que todo se vea similar a esto:
 
-<a href="http://blog.jam.net.ve/imagenes/uploads/2011/10/OdinListo.png"><img class="aligncenter size-medium wp-image-843" title="OdinListo" src="http://blog.jam.net.ve/imagenes/uploads/2011/10/OdinListo-300x208.png" alt="" width="300" height="208" /></a>
+<a href="http://imgur.com/uVOwV"><img src="http://i.imgur.com/uVOwV.png" title="Hosted by imgur.com" alt="" /></a>
 
 6- Si todo esta bien, entonces le damos al boton Start, Odin debería comenzar a Flashear el nuevo kernel en tu teléfono, el proceso no debería tardar mas que unos pocos segundos ya que el archivo es bastante pequeño.  El teléfono se reiniciara y entrara en el Recovery, (no es necesario, pero por seguridad espera al menos unos dos minutos y verifica que en el teléfono siga mostrándote el recovery) una vez dentro del recovery puedes desconectar el teléfono de la PC y Listo!!! ya tienes tu teléfono Rooteado y con Recovery :D
 
 7- Apaga el Teléfono, quita la batería, coloca la tarjeta MicroSD (solo la MicroSD no coloques la tarjeta SIM) que en la cual copiaste la Room, coloca nuevamente la batería y entra ahora en el modo Recovery tecleando <strong>Volumen Abajo + Tecla de llamada + Tecla de terminar llamada/Apagar</strong>. Dejalo unos segundos presionado hasta que veas el menu del Recovery.
 
-<img class="aligncenter size-medium wp-image-844" title="recovery" src="http://blog.jam.net.ve/imagenes/uploads/2011/10/recovery-200x300.png" alt="" width="200" height="300" />
+<a href="http://imgur.com/0Eqgy"><img src="http://i.imgur.com/0Eqgy.png" title="Hosted by imgur.com" alt="" /></a>
 
 8- Este es el famoso Recovery :D se maneja usando los botones del teléfono y las confirmaciones que nos pide la hacemos seleccionando el boton de Home (no se usa tocando la pantalla). lo recomendable en este punto seria hacer un respaldo (por si las moscas) para eso ve a la opción "<strong>Samdroid 0.2.1 Backup</strong>" y de una vez comenzara a realizarse el respaldo el cual tarda unos minutos o unas 5 o 6 lineas. este respaldo luego en caso de inconvenientes podemos flashearlo mediante el Odin.
 
 9- Ahora ve a la opcion "<strong>Wipe, Choose what</strong>" y luego aplica los 3 wipe que aparecen los cuales son "<strong>wipe data/cache</strong>", "<strong>wipe cache</strong>" y "<strong>Wipe Dalvik cache</strong>" tal como dice el recovery necesitas confirmar la opción a aplicar, presionando el botón Home (el botón de la casita)
 
-<img class="aligncenter" title="recovery_wipeopcion" src="http://blog.jam.net.ve/imagenes/uploads/2011/10/recovery_wipeopcion-200x300.png" alt="" width="200" height="300" />
+<a href="http://imgur.com/8lqPE"><img src="http://i.imgur.com/8lqPE.png" title="Hosted by imgur.com" alt="" /></a>
 
 10- Luego de esto vuelve al menú principal del Recovery y selecciona la opcion "Apply any zip from SD" y elegimos el archivo <strong>CM-6.1.1-Spica-a8.4_update.zip</strong> que copiamos anteriormente en la MicroSD. confirmamos la opción presionando Home, ahora se comenzara a instalar la nueva room, podrás ver el estado del proceso en la pantalla con todo lo que se esta realizando, también veras en el fondo una barra amarilla cargándose. Es posible que el teléfono se reinicie incluso unas 5 veces,  no te preocupes, pues esto es normal. Espera hasta que en la pantalla te diga algo como "<strong>Install from sd complete</strong>" y vuelva al recovery.  en este punto ya debe de haberse instalado tu nueva version de Android 2.2.1 Froyo :D tan solo reinicia el telefono en la opcion "<strong>Reboot system now</strong>" y ahora tu Spica se iniciara por primera vez con Froyo :D. no te preocupes si el primer inicio demora mas de lo normal, esto es normal. En mi caso demoro creo que como 5min aunque con el miedo y las bolas en las gargantas me parecieron como 15min LOOL
 
 11- Una vez que tu Spica cargue Froyo por primera vez, veras que aparecerá el menú de configuración inicial. pero si hiciste los pasos tal cual aparecen aquí es probable que no tengas puesta la tarjeta <strong>SIM</strong>, por lo que debes preferiblemente cambiar el idioma a tu preferido, omitir toda la configuración inicial y apagar el teléfono. luego saca la batería, coloca la tarjeta <strong>SIM</strong>, vuelve a colocar la batería y enciende el teléfono nuevamente. Ahora si podras completar la configuración inicial y comenzar a disfrutar de Android 2.2.1 Froyo con multitouch, drivers 3D y rooteado desde el inicio :D
 
-<img class="aligncenter size-medium wp-image-846" title="cm1" src="http://blog.jam.net.ve/imagenes/uploads/2011/10/cm1-200x300.png" alt="" width="200" height="300" />
+<a href="http://imgur.com/eau2R"><img src="http://i.imgur.com/eau2R.png" title="Hosted by imgur.com" alt="" /></a>
 
 **Posibles problemas:**
 

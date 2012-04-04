@@ -20,7 +20,7 @@ tags:
 
 Continuando con mis practicas y articulos sobre CouchDB traigo ahora algunos ejemplos de vistas/consultas para mostrar nuestros datos almacenados, recordemos que en CouchDB las vistas se crean usando funciones escritas en el lenguaje JavaScript, aunque se puede usar otros lenguajes como Ruby, Python, etc mediante plugins.
 
-<img class="aligncenter size-full wp-image-523" title="Selección_011" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_011.jpeg" alt="" width="192" height="167" />
+<a href="http://imgur.com/EUNoH"><img src="http://i.imgur.com/EUNoH.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Las vistas que crearemos a continuacion sera para consultar y organizar los datos almacenados por la <a href="http://blog.jam.net.ve/2010/12/23/programando-una-aplicacion-de-registrodetransferencias-en-python-y-couchdb/">aplicacion RegistroDeTransferencias</a> la cual explique hace unos dias, por lo que recomiendo que primero sigas dicho articulo antes de continuar para que asi no estes tan perdido.
 
@@ -38,7 +38,7 @@ emit([doc.fecha_agregado, doc.hora_agregado], doc.bajada);
 
 Esta funcion nos devolvera algo como esto:
 
-<img class="aligncenter" title="Selección_020" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_020-300x156.jpg" alt="" width="300" height="156" />
+<a href="http://imgur.com/lrc6l"><img src="http://i.imgur.com/lrc6ll.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Como podemos ver, en el campo Key (llave) nos muestra la fecha y hora en la que se tomo el documento y en el campo Value (valor) nos muestra los datos de <strong>bajada</strong> para cada documento en la base de datos. de forma similar podemos crear una vista para mostrar los valores de <strong>subida</strong>. Esta funcion nos sirve por ejemplo para ver cuantos datos nos descargamos en X dia.
 
@@ -54,7 +54,7 @@ emit({Subida: doc.subida}, {Bajada: doc.bajada});
 
 Esto nos devolvera algo como:
 
-<img class="aligncenter size-medium wp-image-567" title="Selección_021" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_021-300x155.jpg" alt="" width="300" height="155" /></a>
+<a href="http://imgur.com/kDt7I"><img src="http://i.imgur.com/kDt7Il.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Como podemos ver se le a agregado la leyenda Subida y Bajada junto a los datos de subida y bajada para asi identificarlos mejor.
 
@@ -78,7 +78,7 @@ return sum(values);
 
 Esto nos mostrara algo como esto:
 
-<img class="aligncenter" title="Selección_022" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_022-300x76.jpg" alt="" width="300" height="76" />
+<a href="http://imgur.com/tMWkk"><img src="http://i.imgur.com/tMWkkl.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Como vemos solo nos devuelve una sola fila con la leyenda Bajada en el campo Key y en el campo Value nos muestra la suma total de los datos de <strong>bajada</strong>; 2.498Mb :O y mi plan es de 3000Mb estoy casi qeu sin internet :( LOL.
 
@@ -105,7 +105,7 @@ return sum(values);
 
 Esto nos mostrara algo como:
 
-<img class="aligncenter" title="Selección_023" src="http://blog.jam.net.ve/imagenes/uploads/2010/12/Selección_023-300x85.jpg" alt="" width="300" height="85" />
+<a href="http://imgur.com/8fOzE"><img src="http://i.imgur.com/8fOzEl.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Como podemos observar esto nos mostrara dos filas en la que vemos el total de datos de <strong>subida</strong> como el total de datos de <strong>bajada </strong>en el campo Value ademas de su respectiva leyenda en el campo Key.
 

@@ -18,7 +18,7 @@ tags:
 
 Mas NoSQL :D ... luego de ver como <a href="http://blog.jam.net.ve/2010/12/13/instalando-couchdbkit-y-almacenando-datos-en-couchdb-desde-python/">almacenabamos informacion en CouchDB desde una aplicacion en Python</a>, veremos como hacer lo mismo pero esta vez enviando los datos a una base de datos MongoDB.
 
-<img class="aligncenter" title="Selección_024" src="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_024-300x89.jpg" alt="" width="300" height="89" />
+<a href="http://imgur.com/ZgBVN"><img src="http://i.imgur.com/ZgBVNl.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Para este caso usaremos la misma aplicacion de <a href="http://blog.jam.net.ve/2010/12/23/programando-una-aplicacion-de-registrodetransferencias-en-python-y-couchdb/">RegistroDeTransferencias</a> que programe anteriormente y que almacena los datos en CouchDB, solo que esta vez modificare el codigo para que almacene la informacion en MongoDB. :P
 
@@ -90,7 +90,7 @@ python rdtmongo.py
 
 y veremos algo como esto
 
-<img class="aligncenter" title="Selección_027" src="http://blog.jam.net.ve/imagenes/uploads/2011/01/Selección_027-300x248.jpg" alt="" width="300" height="248" />
+<a href="http://imgur.com/3yw6W"><img src="http://i.imgur.com/3yw6Wl.jpg" title="Hosted by imgur.com" alt="" /></a>
 
 Si nos vamos a la consola interactiva de MongoDB y nos movemos a la base de datos bdregistrodetransferencias:
 

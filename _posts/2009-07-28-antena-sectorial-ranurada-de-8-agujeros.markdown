@@ -25,27 +25,21 @@ Bueno como les habia dicho hace meses en un comentario de la antena parabolica D
 
 Este fin de semana porfin me puse a fabricarla y aqui se la muestro:
 
-<a href="http://www.jam.net.ve/images/ranurada/Imagen013.jpg"><img title="Antena sectorial 8 ranuras" src="http://www.jam.net.ve/images/ranurada/Imagen013.jpg" alt="" width="218" height="292" /></a>
-
+<a href="http://imgur.com/D4YZA"><img src="http://i.imgur.com/D4YZAl.jpg" title="Antena Sectorial Ranurada" alt="" /></a>
 
 Increiblemente alli en donde esta, detectaba la señal del AP a unos 500mts (claro muy baja la señal y con muchas caidas) :D
 
+<a href="http://imgur.com/cjvBS"><img src="http://i.imgur.com/cjvBSs.jpg" title="Senal baja" alt="" /></a>
 
-<a href="http://www.jam.net.ve/images/ranurada/Capt-8.jpg"><img title="Señal de la antena estando en el suelo" src="http://www.jam.net.ve/images/ranurada/Capt-8.jpg" alt="Señal de la antena estando en el suelo" width="221" height="167" /></a>
-
-<a href="http://www.jam.net.ve/images/ranurada/Imagen016.jpg"><img src="http://www.jam.net.ve/images/ranurada/Imagen016.jpg" alt="Antena elevada unos 4mts" width="190" height="142" /></a>
-
+<a href="http://imgur.com/VrYTE"><img src="http://i.imgur.com/VrYTEs.jpg" title="Antena Elevada" alt="" /></a>
 
 Como en donde la tenia colocada, no me generaba una buena señal, la eleve un poco ( esto es lo mas que pude) para conseguir una mejor señal
 
-<a href="http://www.jam.net.ve/images/ranurada/Imagen015.jpg"><img src="http://www.jam.net.ve/images/ranurada/Imagen015.jpg" alt="Este es el AP al que logro detectar con la antena Sectorial" width="211" height="158" /></a>
-
+<a href="http://imgur.com/mREaQ"><img src="http://i.imgur.com/mREaQs.jpg" title="AP a 500mts" alt="" /></a>
 
 Este AP esta ubicado a unos 450Mts o 500 Mts de distancia, la linea de vista no es la mejor ya que hay muchos arboles altos (junto a la sectoria hay uno que la tapa toda ) , techos de las casas, etc.
 
-
-<a href="http://www.jam.net.ve/images/ranurada/Capt-14.jpg"><img src="http://www.jam.net.ve/images/ranurada/Capt-14.jpg" alt="Señal mejorada luego de elevar la antena" width="242" height="182" /></a>
-
+<a href="http://imgur.com/hAiYU"><img src="http://i.imgur.com/hAiYUs.jpg" title="Senal alta" alt="" /></a>
 
 con todo y ese estorbo en la linea de vista, logre realizar la conexion con el AP y mejorar la seña tal como se ve aca.
 
