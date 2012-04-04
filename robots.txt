@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: http://blog.jam.net.ve/sitemap.txt
