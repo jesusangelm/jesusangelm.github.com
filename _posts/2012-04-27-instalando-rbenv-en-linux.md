@@ -61,7 +61,7 @@ $ git clone git://github.com/sstephenson/rbenv.git .rbenv
 - Agregamos `~/.rbenv/bin` a nuestro `$PATH` para acceder al comando `rbenv`:
 
 {% highlight bash %}
-$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 {% endhighlight %}
 
 **En caso de que uses Zsh** modifica `~/.zshrc` en lugar de `~/.bash_profile`
