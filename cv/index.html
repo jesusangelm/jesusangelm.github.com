@@ -35,11 +35,44 @@
           <h2>TSU Informatica</h2>
           <p>Programador, sysadmin autodidacta, usuario Linux, blogger y adicto a la tecnologia.</p>
           <div id="contact-details">
-            <p class="contact"><span>Correo: </span>jam@jam.net.ve</p>
+            <p class="contact"><span>Correo: </span><a
+              href="&#109;a&#105;l&#116;&#111;:&#106;&#97;&#109;&#64;&#106;&#97;&#109;&#46;&#110;&#101;&#116;&#46;&#118;&#101;">jam@jam.net.ve</a></p>
             <p class="contact"><span>Web: </span> 
             <a href="http://jam.net.ve">Jam.Net.Ve</a></p>
             <p class="contact"><span>Blog: </span>
             <a href="http://blog.jam.net.ve">Blog.Jam.Net.Ve</a></p>
+            <p class="contact"><span>Skype: </span>jesusangelm</p>
+            <div id="tagcloud">
+              <a href="http://es.wikipedia.org/wiki/GNU/Linux" rel="10">Linux</a>
+              <a href="http://es.wikipedia.org/wiki/Arch_linux" rel="7">ArchLinux</a>
+              <a href="http://es.wikipedia.org/wiki/Ubuntu" rel="5">Ubuntu</a>
+              <a href="http://es.wikipedia.org/wiki/Rails" rel="6">Rails</a>
+              <a href="http://es.wikipedia.org/wiki/Ruby" rel="4">Ruby</a>
+              <a href="http://www.sinatrarb.com/" rel="4">Sinatra</a>
+              <a href="http://es.wikipedia.org/wiki/HTML5" rel="6">HTML5</a>
+              <a href="http://es.wikipedia.org/wiki/CSS3" rel="5">CSS3</a>
+              <a href="http://es.wikipedia.org/wiki/Administrador_de_sistemas_inform%C3%A1ticos"
+                rel="7">SysAdmin</a>
+              <a href="http://es.wikipedia.org/wiki/NoSQL" rel="3">NoSQL</a>
+              <a href="http://es.wikipedia.org/wiki/MongoDB" rel="4">MongoDB</a>
+              <a href="http://es.wikipedia.org/wiki/CouchDB" rel="2">CouchDB</a>
+              <a href="http://es.wikipedia.org/wiki/PostgreSQL" rel="4">PostgreSQL</a>
+              <a href="http://es.wikipedia.org/wiki/Redis" rel="1">Redis</a>
+              <a href="http://es.wikipedia.org/wiki/Mysql" rel="3">MySQL</a>
+              <a href="http://es.wikipedia.org/wiki/SQL" rel="2">SQL</a>
+              <a href="http://es.wikipedia.org/wiki/Informatica" rel="10">Informatica</a>
+              <a href="http://es.wikipedia.org/wiki/Programacion" rel="8">Programacion</a>
+              <a href="http://es.wikipedia.org/wiki/Red_de_computadoras" rel="5">Redes</a>
+              <a href="http://es.wikipedia.org/wiki/Red_inal%C3%A1mbrica" rel="5">Redes Inalambricas</a>
+              <a href="http://es.wikipedia.org/wiki/Servidores" rel="7">Servidores Linux</a>
+              <a href="http://es.wikipedia.org/wiki/Vim" rel="4">Vim</a>
+              <a href="http://es.wikipedia.org/wiki/Git" rel="3">Git</a>
+              <a href="https://github.com/" rel="5">GitHub</a>
+              <a href="http://es.wikipedia.org/wiki/Tdd" rel="1">TDD</a>
+              <a href="http://en.wikipedia.org/wiki/Behavior-driven_development" rel="1">BDD</a>
+              <a href="http://es.wikipedia.org/wiki/Domain_Name_System" rel="5">DNS</a>
+              <a href="http://es.wikipedia.org/wiki/Dominio_de_Internet" rel="5">Administracion de Dominios</a>
+            </div>
           </div>
         </div><!--end header-content-->
         <div id="header-photo">
@@ -122,21 +155,32 @@
       </div><!--end content-->
     </div><!--end wrap-->
     <div id="spacing"></div><!--hack for ie6 and ie7-->
-    <!-- Start of StatCounter Code for Default Guide -->
-    <script type="text/javascript">
-      var sc_project=6680637; 
-      var sc_invisible=1; 
-      var sc_security="fa6ce2c7"; 
-      </script>
-      <script type="text/javascript"
-        src="http://www.statcounter.com/counter/counter.js"></script>
-      <noscript><div class="statcounter"><a title="tumblr
-            statistics" href="http://statcounter.com/tumblr/"
-            target="_blank"><img class="statcounter"
-            src="http://c.statcounter.com/6680637/0/fa6ce2c7/1/"
-            alt="tumblr statistics"></a></div></noscript>
-      <!-- End of StatCounter Code for Default Guide -->
-      <a href="https://github.com/jesusangelm"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-    </body>
+    <script src="js/jquery.js" ></script>
+    <script src="js/jquery.tagcloud.js"></script>
+    <script type="text/javascript" >
+      $.fn.tagcloud.defaults = {
+size: {start: 11, end: 20, unit: 'pt'},
+      color: {start: '#b4b4b4', end: '#0029cc'}
+      };
+$(function () {
+    $('#tagcloud a').tagcloud();
+    });
+</script>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+  var sc_project=6680637; 
+  var sc_invisible=1; 
+  var sc_security="fa6ce2c7"; 
+  </script>
+  <script type="text/javascript"
+    src="http://www.statcounter.com/counter/counter.js"></script>
+  <noscript><div class="statcounter"><a title="tumblr
+        statistics" href="http://statcounter.com/tumblr/"
+        target="_blank"><img class="statcounter"
+        src="http://c.statcounter.com/6680637/0/fa6ce2c7/1/"
+        alt="tumblr statistics"></a></div></noscript>
+  <!-- End of StatCounter Code for Default Guide -->
+  <a href="https://github.com/jesusangelm"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+</body>
   </html>
 
