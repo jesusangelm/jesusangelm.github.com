@@ -1,4 +1,3 @@
 <strong>{{ page.date | date: "%d %B %Y" }}</strong><br>
 <ul class="inline">
-<li><i class="icon-tags"></i></li>{% for tag in page.tags %}<li class="label label-inverse">{{ tag }}</li>{% if forloop.last != true %} {% endif %}{% endfor %}
-</ul>
+<li><i class="icon-tags"></i></li>{% assign tags_list = page.tags %}{% include tags_list %}</ul>
