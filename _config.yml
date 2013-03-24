@@ -1,0 +1,23 @@
+safe: false
+auto: false
+server: false
+server_port: 4000
+baseurl: /
+url: http://blog.jam.net.ve
+
+source: .
+destination: ./_site
+plugins: ./_plugins
+
+future: true
+markdown: rdiscount
+permalink: /:year/:month/:day/:title
+pygments: true
+
+exclude: ["README.md"]
+
+author:
+  name: Jesus Marin
+  email: jam@jam.net.ve
+  github: jesusangelm
+  twitter: jesusangelm

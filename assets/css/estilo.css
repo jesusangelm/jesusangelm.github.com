@@ -1,0 +1,33 @@
+body {
+  padding-top: 60px;
+  background-color: #D5D5D5;
+}
+
+.titulo {
+  text-shadow: #9C9C9C 0px 1px 1px;
+}
+
+h4.titulo {
+  padding-left: 35px;
+}
+
+#cabecera {
+  background-color: #4E4E4E;
+  box-shadow:  #797979  0px 0px 25px;
+}
+
+#tagcloud {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer {
+  padding: 50px 0;
+  margin-top: 175px;
+}
+
+.footer p {
+  margin-bottom: 0;
+  color: rgb(78, 78, 78);
+  text-shadow: rgb(255, 255, 255) 0px 1px 1px;
+}

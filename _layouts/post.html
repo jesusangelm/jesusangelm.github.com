@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+{% include header.html %}
+<body>
+   {% include navbar.html %}
+     <div class="container">
+      <div class="hero-unit" id="cabecera">
+        <h1 class="titulo">Jam Blog</h1>
+        <h4 class="titulo">¡Aprende Linux Facilmente!</h4>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="span9">
+          {{ content }}
+          {% include social.html %}
+          {% include disqus.html %}
+        </div>
+        {% include sidebar.html %}
+      </div>
+    </div>
+{% include footer.html %}
+{% include bootstrapjs.html %}
+{% include analytics.html %}
+</body>
+</html>
