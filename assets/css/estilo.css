@@ -7,6 +7,10 @@ body {
   text-shadow: #9C9C9C 0px 1px 1px;
 }
 
+.subtitulo {
+  text-shadow: rgb(255, 255, 255) 0px 1px 1px;
+}
+
 h4.titulo {
   padding-left: 35px;
 }
