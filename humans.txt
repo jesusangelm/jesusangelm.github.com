@@ -1,0 +1,20 @@
+/* EL EQUIPO DE UN MIEMBRO */
+  Programador: Jesus Marin
+  Correo: jam [at] jam.net.ve
+  Twitter: @jesusangelm
+  Web: http://jam.net.ve
+  Localizacion: Juan Griego, Isla De Margarita, Venezuela
+
+/* Pagina */
+  Idioma: Español
+  Doctype:HTML5
+  IDE: Sublime Text, Vim
+  Software: Git, FileZilla, Linux
+
+/* Agradecimientos */
+  A Github por el hosting web y de repositorios de codigos.
+  A Jekyll por ser una fenomenal herramienta para generar esta web.
+  A TwitterBootstrap por hacer que esta web tenga una apariencia aceptable.
+  A JekyllBootstrap por los snippets utiles que uso en esta web.
+
+  Y un ¡GRAN AGRADECIMIENTO! al que me quiera contratar, porque estoy pelando!!!
