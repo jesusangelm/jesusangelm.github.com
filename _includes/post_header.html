@@ -1,2 +1,4 @@
 <strong>{{ page.date | date: "%d %B %Y" }}</strong><br>
-<i class="icon-tags"></i> {% for tag in page.tags %}<a class="label label-inverse" href="/tags/{{ tag }}" title="Articulos de: &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>{% if forloop.last != true %} {% endif %}{% endfor %}
+<ul class="inline">
+<li><i class="icon-tags"></i></li>{% for tag in page.tags %}<li class="label label-inverse">{{ tag }}</li>{% if forloop.last != true %} {% endif %}{% endfor %}
+</ul>
