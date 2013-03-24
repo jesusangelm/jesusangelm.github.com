@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /cv/
-Disallow: /cv/index.html
-Allow: /
-Sitemap: http://blog.jam.net.ve/sitemap.txt
