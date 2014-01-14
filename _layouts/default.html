@@ -4,7 +4,7 @@
 <body>
    {% include navbar.html %}
      <div class="container">
-      <div class="hero-unit" id="cabecera">
+      <div class="jumbotron" id="cabecera">
         <h1 class="titulo">Jam Blog</h1>
         <h4 class="titulo">¡Aprende Linux Facilmente!</h4>
       </div>
@@ -12,7 +12,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="span9">
+        <div class="col-md-9">
           {{ content }}
         </div>
         {% include sidebar.html %}

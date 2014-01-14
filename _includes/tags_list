@@ -22,11 +22,11 @@ Usage:
 {% else %}
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-      <li><a class="label label-inverse" href="/tags.html{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}</span></a></li>
+      <li><a class="label label-primary" href="/tags.html{{ site.JB.tags_path }}#{{ tag }}-ref"><span>{{ tag }}</span></a></li>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-      <li><a class="label label-inverse" href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
+      <li id="tagcloud"><a class="label label-primary" href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
     {% endfor %}
   {% endif %}
 {% endif %}
