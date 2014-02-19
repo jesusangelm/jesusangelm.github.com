@@ -30,7 +30,7 @@ hasta la fecha no existen paquetes en sus repositorios.
 
 Para instalarlos en ArchLinux tan solo ejecutamos en la terminal:
 
-{% highlight bash %}
+{% highlight console %}
 $ sudo pacman -S dnsmasq dnscrypt-proxy
 {% endhighlight %}
 
@@ -46,7 +46,7 @@ Para que Dnsmasq trabaje con Dnscrypt y asi cachear las peticiones dns de
 dnscrypt tan solo debemos agregar o descomentar las siguientes lineas en su
 archivo de configuracion que deberia estar en **/etc/dnsmasq.conf** 
 
-{% highlight bash %}
+{% highlight bash linenos %}
 # Configuration file for dnsmasq.
 #
 # Format is one option per line, legal options are the same as the
@@ -116,7 +116,7 @@ usando la misma direccion IP local, lo cual no deberia ser. Para corregir esto y
 adaptarlo a la configuracion que ya tenemos hecha para Dnsmasq editaremos el
 archivo **/etc/conf.d/dnscrypt-proxy** el cual probablemente contenga esto:
 
-{% highlight bash %}
+{% highlight bash linenos %}
 DNSCRYPT_LOCALIP=127.0.0.1
 DNSCRYPT_LOCALPORT=53
 DNSCRYPT_USER=nobody
@@ -146,14 +146,14 @@ de tu ISP o Gobierno.
 
 En ArchLinux basta con ejecutar:
 
-{% highlight bash %}
+{% highlight console %}
 $ sudo systemctl enable dnscrypt-proxy.service
 $ sudo systemctl enable dnsmasq.service
 {% endhighlight %}
 
 Para habilitar los servicios y luego para arrancar:
 
-{% highlight bash %}
+{% highlight console %}
 $ sudo systemctl start dnscrypt-proxy.service
 $ sudo systemctl start dnsmasq.service
 {% endhighlight %}
@@ -167,7 +167,7 @@ hace tiempo por el Gobierno de Venezuela es [DolarToday](http://dolartoday.com/)
 Si yo realizo una consulta dig a **dolartoday.com** seguro obtendre algo como
 esto:
 
-{% highlight bash %}
+{% highlight console %}
  <<>> DiG 9.9.2-P2 <<>> dolartoday.com
 ;; global options: +cmd
 ;; Got answer:
@@ -197,7 +197,7 @@ cuando conectas a internet con dicho proveedor.
 Con Dnsmasq, Dnscrypt ejecutandose y la interfaz de red configurada y lista, al
 realizar la misma consulta DNS con **dig** obtendriamos algo como esto:
 
-{% highlight bash %}
+{% highlight console %}
  <<>> DiG 9.9.2-P2 <<>> dolartoday.com
 ;; global options: +cmd
 ;; Got answer:
