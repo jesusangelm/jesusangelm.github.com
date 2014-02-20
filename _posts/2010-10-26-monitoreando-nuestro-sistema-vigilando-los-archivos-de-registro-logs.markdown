@@ -3,11 +3,10 @@ layout: post
 title: "Monitoreando nuestro sistema vigilando los archivos de registros logs."
 tags: [linux, sysadmin, seguridad]
 ---
-# Monitoreando nuestro sistema vigilando los archivos de registros logs.
-
-{% include post_header.html %}
 
 Los archivos de registros o archivos log como se conocen comummente, son archivos en donde se van almacenando un registro de todos los eventos que ocurren en un sistema durante un periodo de tiempo en particular. Estos archivos son usados tanto por el sistema operativo como por las aplicaciones o demonios (procesos) para registrar datos o informacion sobre un evento en particular.  En un sistema Linux podemos encontrar estos archivos de registro o logs en la carpeta /var/log  En esta carpeta encontraremos casi todos los archivos de registros de un sistema, pero cabe destacar que muchas aplicaciones crean estos archivos en sus propias carpetas fuera de /var/log.
+
+<!-- more -->
 
 Ahora bien, ¿En que nos sirve los logs para monitorear nuestro sistema? pues muy sencillo, los principales archivos logs que estan en la carpeta /var/log van almacenando informacion de casi todos los eventos que ocurren en tu PC practicamente desde que la enciendes y en ellos podremos ver por ejemplo que pasa internamente en Linux cuando conectas una Memoria USB, un <a href="http://blog.jam.net.ve/tag/modem/">Modem</a> USB o cuando estas conectado a internet puedes ver los intentos de entrada bloqueados por tu firewall.   En otras circunstancias podremos ser capaces de observar algun mensaje de error que se pueda producir cuando estas conectando algun hardware nuevo o si tienes un servicio web instalado podras ver quienes estan conectados a tu equipo.
 

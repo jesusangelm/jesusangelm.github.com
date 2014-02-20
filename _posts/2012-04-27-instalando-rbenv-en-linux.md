@@ -4,10 +4,6 @@ title: "Instalando rbenv en linux"
 tags: [rbenv, linux, archlinux, ruby, programacion]
 ---
 
-#rbenv
-
-{% include post_header.html %}
-
 Es una herramienta en linea de comandos que nos permite administrar y cambiar fácilmente
 entre nuestras múltiples instalaciones de diversas versiones de Ruby. Es muy sencillo, discreto,
 y sigue la tradicion UNIX.
@@ -16,6 +12,8 @@ y sigue la tradicion UNIX.
 por defecto administrar multiples versiones de Ruby, lo que nos lleva a una solucion mas limpia y
 simple con menos peculiaridades y trampas. **rbenv** fue creado por [Sam Stephenson](http://sstephenson.us/) de
 [37Signal](http://37signals.com/) el cual creo el Framework JavaScript [Prototype](http://prototypejs.org/).
+
+<!-- more -->
 
 #Que hace rbenv?
 

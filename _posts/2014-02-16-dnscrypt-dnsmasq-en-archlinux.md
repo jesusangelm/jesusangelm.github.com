@@ -5,10 +5,6 @@ cualquier restrincion de tu ISP."
 tags: [dnsmasq, dnscrypt, venezuela, linux, censura, archlinux]
 ---
 
-# DnsCrypt + DNSMasq en ArchLinux - Encripta y asegura tus peticiones DNS.
-
-{% include post_header.html %}
-
 Hace [algo de tiempo](http://blog.jam.net.ve/2010/08/20/vuela-en-internet-usando-una-cache-dns-dnsmasq-en-ubuntu/) ya escribi un articulo de como acelerar un poco el internet
 usando DNSMasq como una cache DNS, en esta ocasion vamos a mejorar un poco la
 seguridad de nuestra conexion a internet con la ayuda de [DNSCrypt](http://dnscrypt.org/).
@@ -25,6 +21,8 @@ la informacion es facilmente aplicable a otras distros como Ubuntu o Debian, en
 estas dos ultimas distros linux se requiere compilar e instalar aparte
 [Libsodium](https://github.com/jedisct1/libsodium) ya que si mal no recuerdo
 hasta la fecha no existen paquetes en sus repositorios.
+
+<!-- more -->
 
 #Instalando DNSCript y DNSMasq.
 
@@ -240,3 +238,5 @@ saltarnos restrinciones, pero si lo deseas puedes cambiarlo por algun otro, en
 la pagina de [Dnscrypt](http://dnscrypt.org/) puedes encontrar una lista de
 actuales proveedores de servicios DNS con Dnscrypt activado como por ejemplo
 [CloudNS](https://cloudns.com.au/) de Australia, [OpenNIC](http://www.opennicproject.org/) con servidores en varias partes del mundo, [DnsCrypt.eu](http://dnscrypt.eu/) con servidores en Holanda y Dinamarca y [Soltysiak.com](http://dc1.soltysiak.com/) con servidores en Polonia.
+
+

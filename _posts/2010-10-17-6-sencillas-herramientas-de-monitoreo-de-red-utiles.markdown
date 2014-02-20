@@ -3,11 +3,10 @@ layout: post
 title: "6 sencillas herramientas para monitoreo de red utiles."
 tags: [linux, red, sysadmin, seguridad]
 ---
-# 6 sencillas herramientas para monitoreo de red utiles.
-
-{% include post_header.html %}
 
 Desde hace unos meses para aca e estado leyendo un poco de las grandes posibilidades que ofrece la terminal y su gran poder para controlar y administar practicamente toda tu PC.  Ultimamente e estado viendo aplicaciones y comandos para la terminal que me permitan ver y monitoriar las conexiones a internet por lo que les traigo aqui 3 comandos y 3 aplicaciones de terminal utiles para monitoriar tu red.
+
+<!-- more -->
 
 **Aplicaciones:**
 

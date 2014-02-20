@@ -3,13 +3,12 @@ layout: post
 title: "Instalando RVM, Ruby y Rails en Linux."
 tags: [ruby, rails, rvm, linux]
 ---
-# Instalando RVM, Ruby y Rails en Linux.
-
-{% include post_header.html %}
 
 Hace unos días atras estaba intentando instalar Ruby 1.9.2  desde los repositorios, como ya mi laptop tenia la versión 1.8.7 me di a la tarea de desinstalar por completo esta versión. Luego de terminal de instalar Ruby 1.9.2 y hacer la primera prueba, me encontré con que con que no había salido todo bien, algunas aplicaciones como Gem y Rake estaban buscando el ejecutable de Ruby 1.8.7 (que ya no estaba) y no el de Ruby 1.9.2.  Leyendo en internet encontré algunas posibles soluciones en las que sugerían crear enlaces simbólicos para que de este modo las aplicaciones que buscaran determinadas versiones de Ruby (1.8.7 en mi caso) usara la versión instalada (Ruby 1.9.2). asi lo hice, pero no fue la solución optima ya que muchas aplicaciones no estaban trabajando del todo bien y seguían mostrando algunos errores.
 
-<a href="http://imgur.com/zRyar"><img src="http://i.imgur.com/zRyar.png" title="Hosted by imgur.com" alt="" /></a>
+<a href="http://imgur.com/zRyar"><center><img src="http://i.imgur.com/zRyar.png" title="Hosted by imgur.com" alt="" /></center></a>
+
+<!-- more -->
 
 De vuelta a los buscadores,  intentando encontrar alguna forma de tener Ruby 1.9.2 + Rails 3.0.7 y demás acompañantes en su ultima versión trabajando en armonía y sin problemas, me tope con  [RVM](https://rvm.beginrescueend.com) (Ruby Version Manager) el cual es una aplicación de linea de comandos que nos permite instalar, administrar y poder trabajar con múltiples versiones (o sabores) de Ruby y otras aplicaciones en gemas. Esto quiere decir que si asi lo queremos podríamos tener instalado en nuestra computadora Ruby 1.8.7, Ruby 1.9.2, Rails 2.x, Rails 3.07  y usar en cualquier momento la version que mas nos convenga. En este caso yo instale Ruby 1.9.2 + Rails 3.0.7 En Ubuntu 10.10 64bits.
 

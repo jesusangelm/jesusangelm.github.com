@@ -3,11 +3,10 @@ layout: post
 title: "Entendiendo la notacion octal de los permisos de sistemas en Linux"
 tags: [linux, seguridad, tutorial]
 ---
-# Entendiendo la notacion octal de los permisos de sistemas en Linux
-
-{% include post_header.html %}
 
 Si administras un servidor, una cuenta de hosting o usas una distro Linux es muy probable que en algun momento hayas tenido que cambiar los permisos a alguna carpeta o archivo. En sistemas Linux comunmente se usa el comando chmod seguido de un conjunto de letras y simbolos (notacion simbolica) o seguido de una cifra de 3 digitos (notacion octal), pero en ocasiones usamos estos permisos sin saber que significan o que estan haciendo realmente ya que copiamos el comando de alguna guia o pagina.
+
+<!-- more -->
 
 Bien en esta ocasion explicare un poco como es el funcionamiento de la notacion octal y como saber el significado de esos numeros que colocamos.
 

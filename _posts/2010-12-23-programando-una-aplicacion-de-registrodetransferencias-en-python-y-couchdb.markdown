@@ -3,11 +3,10 @@ layout: post
 title: "Programando una aplicacion de registrodetransferencias en Python y CouchDB"
 tags: [nosql, python, couchdb, programacion]
 ---
-# Programando una aplicacion de registrodetransferencias en Python y CouchDB
-
-{% include post_header.html %}
 
 Una de las ventajas de ser programador es que puedes escribir uno mismo sus aplicaciones para resolver un problema determinado que se tenga, y pues yo tenia un problema :D . Resulta que mi unica conexion a internet es mediante un Modem USB, estos modem vienen con un software que solo funciona bajo Windows (algunos funcionan en MacOS) que te permite llevar un registro de las transferencias de datos consumidas y asi saber cuando estas a punto de consumirte tu cuota mensual de datos. Pues como solo uso <a href="http://blog.jam.net.ve/category/linux/">Linux</a> estos registros los llevava era en notas (tomboy) escribiendo los datos de subida y bajada que consumia despues de desconectarme.
+
+<!-- more -->
 
 <a href="http://imgur.com/EUNoH"><img src="http://i.imgur.com/EUNoH.jpg" title="Hosted by imgur.com" alt="" /></a>
 

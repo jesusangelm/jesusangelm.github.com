@@ -3,11 +3,10 @@ layout: post
 title: "Instalando RockMongo interfaz de administracion web para MongoDB"
 tags: [mongodb, nosql, sysadmin]
 ---
-# Instalando RockMongo interfaz de administracion web para MongoDB
-
-{% include post_header.html %}
 
 En el mundo de las bases de datos relacionales, una de las formas mas usadas para administrar una base de datos es usando una interfaz web, esto sobretodo si el usuario no cuenta con un acceso shell a su cuenta de hosting. En las bases de datos relacionales por lo general se usa aplicaciones escritas en PHP como phpMyAdmin para MySQL y phpPgAdmin para PostgreSQL.
+
+<!-- more -->
 
 <a href="http://imgur.com/ZgBVN"><img src="http://i.imgur.com/ZgBVNl.jpg" title="Hosted by imgur.com" alt="" /></a>
 

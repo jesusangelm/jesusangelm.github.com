@@ -4,11 +4,9 @@ title: "Actualizando de android 1.5 Cupcake a Android 2.1 Eclair en un Samsung G
 tags: [android, cupcake, eclair, digitel]
 ---
 
-# Actualizando de android 1.5 Cupcake a Android 2.1 Eclair en un Samsung Galaxy Spica i5700 Digitel
-
-{% include post_header.html %}
-
 Hace poco mas de una semana adquirí un teléfono con S.O Android, específicamente el Samsung Galaxy Spica I5700 de Digitel, luego de jurungarlo por unas cuantas horas viendo y probando todas sus funciones me encontré con que no podía instalar muchas de las mejores aplicaciones disponibles para Android por el simple hecho de que el teléfono viene con Android 1.5 Cupcake, el cual es ya una versión desactualizada, por lo que para exprimir mejor las funciones del equipo debería actualizar como mínimo a Android 2.1 Eclair o superiores.
+
+<!-- more -->
 
 <a href="http://imgur.com/rHHwV"><img src="http://i.imgur.com/rHHwV.jpg" title="Hosted by imgur.com" alt="" /></a>
 <a href="http://imgur.com/3zjoa"><img src="http://i.imgur.com/3zjoa.jpg" title="Hosted by imgur.com" alt="" /></a>

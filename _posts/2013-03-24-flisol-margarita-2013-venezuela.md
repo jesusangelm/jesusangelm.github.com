@@ -4,13 +4,11 @@ title: "Flisol Margarita 2013 - Venezuela"
 tags: [flisol, margarita, venezuela, linux]
 ---
 
-# Flisol Margarita 2013 - Venezuela.
-
-{% include post_header.html %}
-
 El <a title="Web Flisol" href="http://www.flisol.org.ve/" rel="nofollow" target="_blank">FLISOL</a> **(Festival Latinoamericano de Instalación de Software Libre)** es un evento que se realiza en las comunidades de todo el mundo en donde todas las personas interesadas en probar y/o instalar una distribución Linux, puede llevar su PC y un colaborador de la feria le instalara la distro que deseas ¡¡¡totalmente Gratis!!!.   Además de esto, se realizaran charlas sobre la filosofía y los beneficios del uso de Linux y software libre.
 
 <a href="http://www.flickr.com/photos/jesusangelm/8586973331/" title="flisol-bannerV-2013 por JamUnix, en Flickr"><center><img src="http://farm9.staticflickr.com/8096/8586973331_98aeb5acce.jpg" width="212" height="500" alt="flisol-bannerV-2013"></center></a>
+
+<!-- more -->
 
 Este es un tipo de festival que se realiza en todo el mundo, y este <strong>27 de Abril de 2013</strong> se realizara en 17 ciudades de Venezuela entre ellas la <strong>Isla de Margarita</strong>. Para ver las demás ciudades participantes click <a href="http://flisol.org.ve/donde/" rel="nofollow">Aqui</a>
 

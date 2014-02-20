@@ -5,10 +5,13 @@ title: Jam Blog - Isla de Margarita - Venezuela
 
 <p><h2 class="subtitulo">Ultimos Articulos:</h2></p>
 
-<ul>
+<ul class="list-unstyled">
   {% for post in site.posts do %}
-    <li>{{ post.date | date_to_string }}
-      <a href="{{ post.url }}">{{ post.title }}</a>
+  <li><strong>{{ post.date | date_to_string }}</strong>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p>{{ post.excerpt }}</p>
+      <p><strong><a href="{{ post.url }}">Seguir leyendo...</a></strong></p>
+      <br /><br /><br />
     </li>
   {% endfor %}
 </ul>

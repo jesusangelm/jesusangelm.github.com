@@ -3,11 +3,10 @@ layout: post
 title: "Ejemplos de vistas-consultas en CouchDB"
 tags: [couchdb, nosql, mapreduce]
 ---
-# Ejemplos de vistas-consultas en CouchDB
-
-{% include post_header.html %}
 
 Continuando con mis practicas y articulos sobre CouchDB traigo ahora algunos ejemplos de vistas/consultas para mostrar nuestros datos almacenados, recordemos que en CouchDB las vistas se crean usando funciones escritas en el lenguaje JavaScript, aunque se puede usar otros lenguajes como Ruby, Python, etc mediante plugins.
+
+<!-- more -->
 
 <a href="http://imgur.com/EUNoH"><img src="http://i.imgur.com/EUNoH.jpg" title="Hosted by imgur.com" alt="" /></a>
 

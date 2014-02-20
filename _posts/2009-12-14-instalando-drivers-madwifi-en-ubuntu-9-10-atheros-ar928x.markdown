@@ -3,11 +3,10 @@ layout: post
 title: "Instalando drivers Madwifi en Ubuntu - Atheros AR928"
 tags: [linux, wifi, tutorial]
 ---
-# Instalando drivers Madwifi en Ubuntu - Atheros AR928
-
-{% include post_header.html %}
 
 Hace unas semanas atras estaba comentando que habia instalado Ubuntu 9.10 en mi laptop y que estaba intentando colocar el chip inalambrico en modo monitor para hacer auditorias wifi (contra mi router), Por fin e logrado instalar los drivers Madwifi para mi tarjeta inalambrica la cual es una Atheros AR5009 o como en la web de Madwifi se conoce como AR928X.
+
+<!-- more -->
 
 Despues de buscar un manual o explicacion para instalarlos, la verdad encontre demasiadas formas de hacerlo, ademas de 3 drivers distintos que podia usar (compat-wireless-2.6.31-rc7, madwifi-hal-0.10.5.6-r4100-20090929 y el madwifi-0.9.4-current) me fui por la explicacion de la pagina <a title="Drivers para Ath9k" href="http://linuxwireless.org/en/users/Drivers/ath9k" target="_blank">LinuxWireless</a> e instale el driver madwifi-hal-0.10.5.6-r4100-20090929  ya que me parecio el mas completo de los tres (en realidad es el mas pesado 4.2Mb).
 

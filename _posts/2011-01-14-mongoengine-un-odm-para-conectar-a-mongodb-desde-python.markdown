@@ -3,11 +3,10 @@ layout: post
 title: "Mongoengine un ODM para conectar a MongoDB desde Python"
 tags: [mongodb, python, nosql]
 ---
-# Mongoengine un ODM para conectar a MongoDB desde Python
-
-{% include post_header.html %}
 
 <a href="http://mongoengine.org/">MongoEngine</a> es un ODM (Object Document Mapper) que nos permite mapear la estructura de nuestra base de datos a objetos en nuestras aplicaciones <a href="http://blog.jam.net.ve/tag/python/">Python</a> que se conectan a instancias <a href="http://blog.jam.net.ve/tag/mongodb/">MongoDB</a>, esto con el fin de poder usar la informacion en nuestra base de datos somo si se tratasen de un objeto. Esto nos ofrece la ventaja de que podemos escribir de una manera mas comoda nuestra aplicacion, definir un esquema para la base de datos y mejorar nuestro codigo, entre otras ventajas mas.
+
+<!-- more -->
 
 Para instar MongoEngine en Linux tan solo debemos escribir en la terminal:
 

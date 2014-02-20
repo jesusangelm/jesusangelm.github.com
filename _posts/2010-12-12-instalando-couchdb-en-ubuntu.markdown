@@ -3,11 +3,10 @@ layout: post
 title: "Instalando CouchDB en Ubuntu"
 tags: [nosql, couchdb, linux, sysadmin]
 ---
-# Instalando Couchdb en Ubuntu
-
-{% include post_header.html %}
 
 Desde hace un mes aproximadamente e estado leyendo sobre sistemas de bases de datos del tipo <a href="http://es.wikipedia.org/wiki/NoSQL">NoSQL</a>, estos sistemas de bases de datos se estan poniendo de moda entre las grandes compañias que requieren alta escalabilidad y performance a bajo costo. Los sistemas de bases de datos NoSQL no son para nada similares a los sistemas de bases de datos Relacionales a los que estamos acostumbrado, en los Sistemas de Administracion de Bases de Datos Relacionales (RDBMS) se acostumbra a organizar los datos en forma de tablas las cuales contienen filas, columnas y un campo clave o ID por lo general autoincremental, ademas de que se usan esquemas de relaciones entre otras tablas.
+
+<!-- more -->
 
 <a href="http://imgur.com/EUNoH"><img src="http://i.imgur.com/EUNoH.jpg" title="Hosted by imgur.com" alt="" /></a>
 

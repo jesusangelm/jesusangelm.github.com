@@ -3,11 +3,10 @@ layout: post
 title: "Almacenando datos en MongoDB desde Python"
 tags: [mongodb, nosql, python, crud]
 ---
-# Almacenando datos en MongoDB desde Python
-
-{% include post_header.html %}
 
 Mas NoSQL :D ... luego de ver como <a href="http://blog.jam.net.ve/2010/12/13/instalando-couchdbkit-y-almacenando-datos-en-couchdb-desde-python/">almacenabamos informacion en CouchDB desde una aplicacion en Python</a>, veremos como hacer lo mismo pero esta vez enviando los datos a una base de datos MongoDB.
+
+<!-- more -->
 
 <a href="http://imgur.com/ZgBVN"><img src="http://i.imgur.com/ZgBVNl.jpg" title="Hosted by imgur.com" alt="" /></a>
 

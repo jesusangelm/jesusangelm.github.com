@@ -3,15 +3,14 @@ layout: post
 title: "Exportar tus contrasenas de lastpass a keepassx"
 tags: [contrasenas, linux, seguridad]
 ---
-# Exportar tus contrasenas de lastpass a keepassx
-
-{% include post_header.html %}
 
 Para los que no conocen [LastPass](http://lastpass.com) es un servicio online gratuito que nos permite guardar las
 contraseñas de todas las paginas a las cuales estamos registrados y nos facilita la tarea de loguearnos o
 registrarnos en dichas paginas autorellenando los formularios. Y para los que no conoscan [KeePassX](http://www.keepassx.org/)
 es una aplicacion con caracteristicas similares a LastPass solo que este se ejecuta como aplicacion
 de escritorio y guarda las contraseñas en tu PC.
+
+<!-- more -->
 
 Para muchos paranoicos no les agrada mucho la idea de usar LastPass ya que este al ser un servicio gratuito y online esta
 propenso a ataques o a que los mismos creadores escudriñen en nuestras contraseñas (a fin de cuentas ellos son

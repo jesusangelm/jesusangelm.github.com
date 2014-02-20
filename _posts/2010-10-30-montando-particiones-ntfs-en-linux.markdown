@@ -3,11 +3,10 @@ layout: post
 title: "Montando particiones NTFS en Linux"
 tags: [linux, tutorial]
 ---
-# Montando particiones NTFS en Linux
-
-{% include post_header.html %}
 
 Esto es algo que ya hay en muchos blogs, foros, etc...  pero lo coloco aqui en <a href="http://blog.jam.net.ve/" target="_blank">JamUnix Blog</a> a modo de respaldo para tenerlo a mano cuando lo necesite ya que cuando instalo una nueva version de <a href="http://blog.jam.net.ve/category/ubuntu/" target="_blank">Ubuntu</a> u otra distro como Debian o Arch <a href="http://blog.jam.net.ve/category/linux/">Linux</a>, siempre ando buscando como automontar mis particiones NTFS.
+
+<!-- more -->
 
 Bien comencemos, para automontar particiones usaremos la aplicacion ntfs-3g la cual nos facilitara mucho la tarea, por lo que lo primero que haremos sera instalarla tecleando en una terminal:
 

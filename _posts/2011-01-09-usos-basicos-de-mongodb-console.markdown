@@ -3,11 +3,10 @@ layout: post
 title: "Usos basicos de MongoDB Console"
 tags: [mongodb, nosql, shell]
 ---
-# Usos basicos de MongoDB Console
-
-{% include post_header.html %}
 
 Y seguimos con mas pruebas de <a href="http://blog.jam.net.ve/category/nosql/">NoSQL</a> :D ... Hace unos dias comentaba como <a href="http://blog.jam.net.ve/2011/01/03/instalando-mongodb-en-ubuntu/">instalar MongoDB en Ubuntu 10.10</a>, ahora veremos algunos usos basicos de la consola de administracion que incluye MongoDB para almacenar informacion, hacer algunas consultas entre otras tareas administrativas.
+
+<!-- more -->
 
 <a href="http://imgur.com/ZgBVN"><img src="http://i.imgur.com/ZgBVNl.jpg" title="Hosted by imgur.com" alt="" /></a>
 

@@ -3,14 +3,13 @@ layout: post
 title: "Vuela en internet usando una cache DNS - Dnsmasq en Ubuntu"
 tags: [dnsmasq, tutorial, linux, dns, internet]
 ---
-# Vuela en internet usando una cache DNS - Dnsmasq en Ubuntu
-
-{% include post_header.html %}
 
 Desde hace unos meses para aca mi internet HSDPA ha estado presentando molestos inconveniente los cuales me obligan a
 recargar o solicitar las paginas mas de una vez para que estas puedan presentarse completamente y sin errores por lo que
 decidi usar una cache DNS con Dnsmasq para probar como puede esto ayudar a mi conexion y que las paginas cargen a la primera
 solicitud y sin problemas.
+
+<!-- more -->
 
 [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) es un servidor DHCP y  DNS ligero y de bajo impacto
 para el sistema que nos permite usarlo cachear las peticiones DNS  hacia internet que realiza nuestro computador

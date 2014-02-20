@@ -3,13 +3,12 @@ layout: post
 title: "Instalando Nginx con soporte PHP5 en Ubuntu"
 tags: [nginx, php, linux, sysadmin]
 ---
-# Instalando Nginx con soporte PHP5 en Ubuntu
-
-{% include post_header.html %}
 
 Hace unos meses atras escribi un articulo en el que explicaba como <a href="http://blog.jam.net.ve/2010/02/16/instalando-nginx-en-centos/">Instalar Nginx en CentOS</a>,  en aquellos tiempos tenia el servidor dedicado con CentOS en el que hacia las pruebas.  Ahora les paso a explicar como instalar el servicio web <a href="http://nginx.org/">Nginx</a> con soporte para PHP5 (a travez de <a href="http://php-fpm.org/">PHP-FPM</a> - Administrador de procesos FastCGI ) en <a href="http://blog.jam.net.ve/category/ubuntu/">Ubuntu</a> 10.10 y asi tener un servidor web local para hacer pruebas con PHP, instalar algun CMS, instalar alguna interfaz de administracion para <a href="http://blog.jam.net.ve/tag/mongodb/">MongoDB</a> :P , etc.
 
 <a href="http://imgur.com/hn3A1"><img src="http://i.imgur.com/hn3A1.png" title="Hosted by imgur.com" alt="" /></a>
+
+<!-- more -->
 
 Para esto lo primero que debemos hacer es instalar Nginx tecleando en la terminal:
 

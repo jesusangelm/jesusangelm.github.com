@@ -3,11 +3,10 @@ layout: post
 title: "Ejemplos de consultas MapReduce en MongoDB"
 tags: [mongodb, nosql, mapreduce]
 ---
-# Ejemplos de consultas MapReduce en MongoDB
-
-{% include post_header.html %}
 
 Hace unos articulos atras les mostre un ejemplo de como podriamos usar Python y el driver PyMongo para almacenar informacion en MongoDB, el ejemplo que vimos fue mi aplicacion de <a href="http://blog.jam.net.ve/2011/01/10/almacenando-datos-en-mongodb-desde-python/">RegistroDeTransferencias</a>. Al final de dicho articulo  explico como podriamos ver y consultar los datos almacenados usando la consola interactiva de MongoDB, pero... ¿y si queremos que sea la misma aplicacion que nos muestre algunas consultas?. Pues a eso vamos, en este articulo haremos que RegistroDeTransferencias nos muestre el total de datos de subida y bajada.
+
+<!-- more -->
 
 Para que nuestra aplicacion nos muestre esta informacion necesitamos crear dos funciones <strong>Map/Reduce</strong> escritas en JavaScript.
 

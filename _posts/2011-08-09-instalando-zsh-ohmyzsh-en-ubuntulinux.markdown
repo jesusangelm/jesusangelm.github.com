@@ -4,16 +4,13 @@ title: "Instalando Zsh y OhMyZsh en Linux"
 tags: [zsh, personalizacion, linux, shell]
 ---
 
-# Instalando Zsh y OhMyZsh en Linux
-
-{% include post_header.html %}
-
 Extraído de Wikipedia:
 
 **ZSH:**
 
 > Es un potente intérprete de comandos para sistemas operativos de tipo Unix, como por ejemplo los BSD o GNU/Linux.1 La primera versión de zsh fue escrita por Paul Falstad en 1990, cuando era estudiante en la Universidad de Princeton. Zsh se diseñó para poder usarse interactivamente. Se le han incorporado muchas de las características principales de otras shells de Unix como, bash, ksh, o tcshy además posee características propias originales
 
+<!-- more -->
 
 Una de las características de Zsh que enamoran al usuario es su alta capacidad de personalización y ser compatible con Bash. pues bien estas dos características justamente son las que me hicieron probar por unos meses Zsh y luego usarla como Shell por defecto en mi PC y Laptop.
 

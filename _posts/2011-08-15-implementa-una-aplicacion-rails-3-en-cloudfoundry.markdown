@@ -4,16 +4,13 @@ title: "Implementando una aplicacion Rails 3 en Cloudfoundry"
 tags: [rails, ruby, deploy, cloudfoundry]
 ---
 
-# Implementando una aplicacion Rails 3 en Cloudfoundry
-
-{% include post_header.html %}
-
 <a href="http://cloudfoundry.com/">CloudFoundry</a> es la plataforma abierta como proyecto de servicios iniciada por VMware la cual puede soportar múltiples frameworks, varios servicios cloud de algunos proveedores , y múltiples aplicaciones de servicios. todo esto en una plataforma escalable en la nube.
 
 <center><a href="http://imgur.com/NLWkg"><img src="http://i.imgur.com/NLWkg.png" title="Hosted by imgur.com" alt="" /></a></center>
 
 Estos servicios están actualmente en version Beta, por lo que de momento son gratuitos pero se requiere de una invitación que puedes solicitar en la pagina de CloudFoundry. casualmente hoy me llego mi invitación (apenas la había pedido ayer) por lo me pude darle un vistazo rápido a la plataforma y hacer unas primeras pruebas.
 
+<!-- more -->
 
 **Instalación de VMC CLI y configuración:**
 

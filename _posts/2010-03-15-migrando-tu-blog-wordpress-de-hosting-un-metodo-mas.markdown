@@ -3,9 +3,6 @@ layout: post
 title: "Migrando tu blog Wordpress. Un Metodo mas"
 tags: [wordpress, tutorial, sysadmin]
 ---
-# Migrando tu blog Wordpress. Un Metodo mas
-
-{% include post_header.html %}
 
 Desde que empece este blog e tenido que aprender por mi cuenta y en ocasiones de mala manera la administracion, uso y configuracion de
 Wordpress. Una de las cosas que tube que aprender a hacer y que en un principio siempre me daban fallos al realizarlas es migrar el blog
@@ -15,6 +12,8 @@ de hosting el cual me migraba a cada rato de servidor para intentar solventar la
 del contenido del blog y la base de datos se hacia sacando backups con las herramientas del panel de control web cPanel y luego
 eran restauradas en el nuevo servidor, No se porque pero siempre me quedaba mal el blog luego de estas migraciones y restauraciones
 mediante cPanel.
+
+<!-- more -->
 
 Uno de los motivos de estos errores me di cuenta que era que al migrar la base de datos esta quedaba con la vieja ruta de la cuenta de
 hosting en donde estaba el contenido del blog en el servidor, por lo que en el nuevo servidor si esta ruta no era la misma, se terminaba

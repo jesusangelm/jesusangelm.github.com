@@ -4,13 +4,11 @@ title: "Actualizando de android 2.1 Eclair a Android 2.2.1 Froyo en un Samsung G
 tags: [android, froyo, eclair, digitel]
 ---
 
-# Actualizando de android 2.1 Eclair a Android 2.2.1 Froyo cyanogenmod 6.1.1-alpha-8.4 en un Samsung Galaxy Spica i5700 Digitel
-
-{% include post_header.html %}
-
 Sigo aprendiendo cada vez mas sobre Android, aunque con algunos tropezones. Hace unas semanas comentaba como actualice mi <a title="Actualizar de Android 1.5 Cupcake a Android 2.1 Eclair en un Galaxy Spica I5700" href="http://blog.jam.net.ve/2011/09/17/actualizando-de-android-1-5-cupcake-a-android-2-1-eclair-en-un-samsung-galaxy-spica-i5700-digitel-venezuela/" target="_blank">Galaxy Spica I5700 de Android 1.5 Cupcake (Oficial Digitel) a Android 2.1 Eclair (Oficial Digitel)</a>, las mejoras eran ya muy notables en esa actualización pero... se puede mejorar mucho mas!!! si actualizamos a alguna de las tantas Rom personalizadas de Android 2.2 Froyo. Pues estuve leyendo sobre las ventajas de hacer una nueva actualización y a la final note que me convenía mucho.
 
-<a href="http://imgur.com/qGAuu"><img src="http://i.imgur.com/qGAuu.jpg" title="Hosted by imgur.com" alt="" /></a>
+<a href="http://imgur.com/qGAuu"><center><img src="http://i.imgur.com/qGAuu.jpg" title="Hosted by imgur.com" alt="" /></center></a>
+
+<!-- more -->
 
 Pues bien la room que elegí fue CyanogenMod 6.1.1 Spica Alpha 8.4 la cual esta basada en Froyo 2.2.1 e incluye mejoras interesantes como soporte 3D y soporte MultiTouch, al ser Froyo también corrige el bug en Eclair de la cámara que se queda oscura cuando se toman fotos estando conectada al Wifi. Por ser una room modificada, incluye un kernel actualizado con muchas mejoras como por ejemplo tener un <a title="Recovery Wiki en Samdroid.net" href="http://forum.samdroid.net/wiki/showwiki/Recovery" target="_blank">recovery</a> el cual es una muy buena utilidad que nos permitiria hacer cosas como por ejemplo ser root desde que enciendes el teléfono :D, hacer respaldos, aplicar actualizaciones y/o modificaciones comprimidas en .zip, instalar nuevas room, particionar la MicroSD, entre muchas otras funciones (tambien depende del kernel que instales).
 
