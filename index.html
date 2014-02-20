@@ -6,7 +6,7 @@ title: Jam Blog - Isla de Margarita - Venezuela
 <p><h2 class="subtitulo">Ultimos Articulos:</h2></p>
 
 <ul class="list-unstyled">
-  {% for post in site.posts do %}
+  {% for post in paginator.posts do %}
   <li><strong>{{ post.date | date_to_string }}</strong>
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
       <p>{{ post.excerpt }}</p>
@@ -15,3 +15,30 @@ title: Jam Blog - Isla de Margarita - Venezuela
     </li>
   {% endfor %}
 </ul>
+
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Anterior</a>
+  {% else %}
+    <span>&laquo; Anterior</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Siguiente &raquo;</a>
+  {% else %}
+    <span>Siguiente &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
