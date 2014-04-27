@@ -44,7 +44,7 @@ version para luego compilar desde alli, esto me permite estar al tanto de las
 ultimas versiones con tan solo un `git pull` en vez de estar revisando la pagina
 y descargar archivos comprimidos.
 
-{% highlight console %}
+{% highlight bash %}
 #clonamos el repositorio
 $ git clone https://github.com/postmodern/chruby.git
 
@@ -82,7 +82,7 @@ para compilar las distintas versiones de ruby disponibles.
 Para instalar ruby-install hacemos lo mismos pasos que hicimos para instalar
 chruby:
 
-{% highlight console %}
+{% highlight bash %}
 #clonamos el repositorio
 $ git clone https://github.com/postmodern/ruby-install.git
 
@@ -99,7 +99,7 @@ $ sudo make install
 Con esto tenemos instalado y listo para usar **ruby-install** por lo que modemos
 probarla junto con **chruby** instalando alguna version de Ruby.
 
-{% highlight console %}
+{% highlight bash %}
 $ ruby-install ruby 2.1
 {% endhighlight %}
 
@@ -108,7 +108,7 @@ Con esto comenzara la descarga, compilacion e instalacion de Ruby.
 Si ejecutas `ruby-install` sin ningun parametro podras ver el listado de rubies
 disponibles:
 
-{% highlight console %}
+{% highlight bash %}
 $ ruby-install 
 Known ruby versions:
   ruby:
@@ -139,7 +139,7 @@ Known ruby versions:
 Para decirle a **chruby** que use alguna version de ruby en especifico es tan
 simple como un:
 
-{% highlight console %}
+{% highlight bash %}
 $ chruby ruby-2.1.1
 {% endhighlight %}
 

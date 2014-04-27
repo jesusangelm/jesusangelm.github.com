@@ -51,7 +51,7 @@ En **ArchLinux** el proceso es muy sencillo ya que se cuenta con el respectivo
 paquete en los repositorios, tambien puede ser instalado desde AUR. en este caso
 optare por instalar Docker desde el repositorio ArchLinux.
 
-{% highlight console %}
+{% highlight bash %}
 $ sudo pacman -S docker
 {% endhighlight %}
 
@@ -60,7 +60,7 @@ $ sudo pacman -S docker
 Para usar Docker sin ser root tan solo debemos agregar nuestro usuario al grupo
 **docker**
 
-{% highlight console %}
+{% highlight bash %}
 $ sudo gpasswd -a USUARIO docker
 {% endhighlight %}
 
@@ -69,9 +69,9 @@ NOTA: Cambie **USUARIO** por el usuario que quiera usar.
 
 Luego tan solo habilitamos sus servicio y lo ejecutamos:
 
-{% highlight console linenos %}
+{% highlight bash linenos %}
 $ sudo systemctl enable docker
-$ sudo systemctl enable docker
+$ sudo systemctl start docker
 {% endhighlight %}
 
 
@@ -81,7 +81,7 @@ Para ver una lista de comandos disponible podemos simplemente ejecutar `docker`
 en la terminal. Tambien podemos ejecutar el comando `docker info` y veremos algo
 como esto:
 
-{% highlight console %}
+{% highlight bash %}
 $ docker info
 Containers: 5
 Images: 4
@@ -109,14 +109,14 @@ por ti.
 En este caso usare la imagen de [BusyBox](https://index.docker.io/_/busybox/),
 para esto tan solo ejecutamos en la terminal:
 
-{% highlight console %}
+{% highlight bash %}
 $ docker pull busybox
 {% endhighlight %}
 
 Una vez descargada la imagen podemos meternos en su terminal y comenzar a
 trabajar en ella:
 
-{% highlight console %}
+{% highlight bash %}
 $ docker run -i -t busybox:latest sh
 {% endhighlight %}
 

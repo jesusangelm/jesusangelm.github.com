@@ -1,15 +1,18 @@
 safe: false
 baseurl: /
 url: http://blog.jam.net.ve
+timezone: America/Caracas
+encoding: utf-8
 
 source: .
 destination: ./_site
 plugins: ./_plugins
 
 future: true
-markdown: rdiscount
+markdown: redcarpet
 permalink: /:year/:month/:day/:title
 pygments: true
+highlighter: rouge
 excerpt_separator: "<!-- more -->"
 paginate: 5
 paginate_path: "/page:num"
