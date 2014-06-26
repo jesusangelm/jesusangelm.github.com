@@ -9,9 +9,8 @@ destination: ./_site
 plugins: ./_plugins
 
 future: true
-markdown: redcarpet
+markdown: kramdown
 permalink: /:year/:month/:day/:title
-pygments: true
 highlighter: rouge
 excerpt_separator: "<!-- more -->"
 paginate: 5
