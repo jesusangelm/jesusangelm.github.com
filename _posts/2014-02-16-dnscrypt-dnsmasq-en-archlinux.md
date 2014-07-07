@@ -44,7 +44,7 @@ Para que Dnsmasq trabaje con Dnscrypt y asi cachear las peticiones dns de
 dnscrypt tan solo debemos agregar o descomentar las siguientes lineas en su
 archivo de configuracion que deberia estar en **/etc/dnsmasq.conf** 
 
-{% highlight bash linenos %}
+{% highlight bash %}
 # Configuration file for dnsmasq.
 #
 # Format is one option per line, legal options are the same as the
@@ -114,7 +114,7 @@ usando la misma direccion IP local, lo cual no deberia ser. Para corregir esto y
 adaptarlo a la configuracion que ya tenemos hecha para Dnsmasq editaremos el
 archivo **/etc/conf.d/dnscrypt-proxy** el cual probablemente contenga esto:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 DNSCRYPT_LOCALIP=127.0.0.1
 DNSCRYPT_LOCALPORT=53
 DNSCRYPT_USER=nobody

@@ -69,7 +69,7 @@ NOTA: Cambie **USUARIO** por el usuario que quiera usar.
 
 Luego tan solo habilitamos sus servicio y lo ejecutamos:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 $ sudo systemctl enable docker
 $ sudo systemctl start docker
 {% endhighlight %}
