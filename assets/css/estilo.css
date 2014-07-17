@@ -1,14 +1,13 @@
 body {
   padding-top: 60px;
-  background-color: #D5D5D5;
 }
 
 .titulo {
-  text-shadow: #9C9C9C 0px 1px 1px;
+  text-shadow: #808080 1px 1px 1px;
 }
 
 .subtitulo {
-  text-shadow: rgb(255, 255, 255) 0px 1px 1px;
+  text-shadow: rgb(184, 184, 184) 0px 1px 1px;
 }
 
 h4.titulo {
@@ -33,5 +32,5 @@ h4.titulo {
 .footer p {
   margin-bottom: 0;
   color: rgb(78, 78, 78);
-  text-shadow: rgb(255, 255, 255) 0px 1px 1px;
+  text-shadow: rgb(184, 184, 184) 0px 1px 1px;
 }
