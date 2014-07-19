@@ -54,13 +54,13 @@ Teniendo esto en cuenta y para obtener algo como esto:
 
 Necesitariamos escribir algo como esto: 
 
-{% highlight markdown %}
+~~~
 # Texto con cabecera h1
 
 ## Texto con cabecera h2
 
 ### Text con cabecera h3
-{% endhighlight %}
+~~~
 
 ### Estilo Setex:
 
@@ -76,14 +76,13 @@ Texto con estilo h2
 
 Debes escribir algo como esto:
 
-{% highlight markdown %}
+~~~
 Texto con nivel h1
 ==================
 
 Texto con estilo h2
 -------------------
-
-{% endhighlight %}
+~~~
 
 
 # Parrafos:
@@ -94,13 +93,13 @@ y `</p>`. Pero en Markdown no es necesario esto, de hecho no es necesario nada,
  tomara esta linea como un parrafo. Por ejemplo este parrafo explicativo se
  obtiene tan solo con escribir algo como esto:
 
- {% highlight markdown %}
+~~~
 En HTML si quieres indicar que escribes un parrafo debes usar la etiqueta `<p>`
 y `</p>`. Pero en Markdown no es necesario esto, de hecho no es necesario nada,
  simplemente escribes una lineas de texto continuas y sin espacio y markdown 
  tomara esta linea como un parrafo. Por ejemplo este parrafo explicativo se
  obtiene tan solo con escribir algo como esto:
- {% endhighlight %}
+~~~
 
 No tiene ningun misterio...
 
@@ -112,9 +111,9 @@ en Markdown es tan facil como colocar un `>` al inicio del texto de la cita.
 Por ejemplo el extracto de Wikipedia que ves arriba es una **cita** que se
 obtubo escribiendo algo como esto:
 
-{% highlight markdown %}
+~~~
 > Markdown es un lenguaje de marcado ligero creado originalmente por John Gruber y Aaron Swartz que trata de conseguir la máxima legibilidad y "publicabilidad" tanto en sus forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano. Markdown convierte el texto marcado en documentos XHTML bien formados, reemplazando el signo 'menor que' ('<') y los et por sus correspondientes referencias de entidad de caracteres. Markdown fue implementado originariamente en Perl por Gruber, pero desde entonces ha sido traducido a multitud de lenguajes de programación, incluyendo PHP, Python, Ruby, Java y Common Lisp. Se distribuye bajo licencia BSD y se distribuye como plugin (o al menos está disponible) en diferentes sistemas de gestión de contenidos (CMS).
-{% endhighlight %}
+~~~
 
 ### Cita anidada:
 
@@ -127,12 +126,12 @@ Puedes anidar una cita dentro de otra como por ejemplo esta:
 
 La cual se lograria con algo como:
 
-{% highlight markdown%}
+~~~
 > Una cita principal.
 >
 > > Una cita anidada.
 >
-{% endhighlight %}
+~~~
 
 Tambien puedes formatear las citas agregandole elementos markdown dentro de
 ellas.
@@ -153,7 +152,7 @@ como marcador de lista, por lo que si quieres hacer algo como esto:
 
 Se usaria algo como esto:
 
-{% highlight markdown %}
+~~~
 * ArchLinux.
 * Ubuntu.
 * Debian.
@@ -169,7 +168,7 @@ y es igual a
 + ArchLinux.
 + Ubuntu.
 + Debian.
-{% endhighlight %}
+~~~
 
 ### Listas ordenadas:
 
@@ -182,17 +181,17 @@ Asi que si quieres crear algo como esto:
 
 Escribiras algo como:
 
-{% highlight markdown %}
+~~~
 1. ArchLinux.
 2. Ubuntu.
 3. Debian.
-{% endhighlight %}
+~~~
 
 Un detalle a tener en cuenta es que el orden de los numeros que coloques para
 marcar una lista ordenada no tiene efectos al ser convertido a HTML por lo que
 si escribes algo como:
 
-{% highlight markdown %}
+~~~
 1. ArchLinux.
 1. Ubuntu.
 1. Debian.
@@ -202,7 +201,7 @@ o escribes algo como
 1. ArchLinux.
 3. Ubuntu.
 5. Debian.
-{% endhighlight %}
+~~~
 
 siempre obtendras una lista ordenada similar al ejemplo de arriba.
 
@@ -253,7 +252,7 @@ Para conseguir las siguientes cuatros reglas (si, probale que no las veas bien):
 
 Necesitaras escribir algo como esto:
 
-{% highlight markdown %}
+~~~
 * * *
 
 
@@ -267,7 +266,7 @@ Necesitaras escribir algo como esto:
 
 
 -----------------
-{% endhighlight %}
+~~~
 
 # Enlaces:
 
@@ -281,9 +280,9 @@ Por ejemplo el siguiente enlace:
 
 lo logramos escribiendo algo como:
 
-{% highlight markdown %}
+~~~
 [Jam Blog](http://blog.jam.net.ve)
-{% endhighlight %}
+~~~
 
 Tambien se puede agregar identificadores a los enlaces para luego agrupar estos
 todos juntos en cualquier parte del documento, esto como una forma de tenerlos
@@ -301,7 +300,7 @@ Por ejemplo los siguientes grupos de enlaces:
 
 Se obtienen escribiendo lo siguiente:
 
-{% highlight markdown %}
+~~~
 [Ubuntu][1]
 [Arch Linux][2]
 [Debian][3]
@@ -309,7 +308,7 @@ Se obtienen escribiendo lo siguiente:
 [1]: http://ubuntu.com "Linux para seres humanos."
 [2]: https://archlinux.org
 [3]: http://debian.org
-{% endhighlight %}
+~~~
 
 Notese el texto opcional que se muestra al colocar el cursor sobre el enlace
 de _Ubuntu._
@@ -326,9 +325,9 @@ Por ejemplo:
 
 lo puedes lograr escribiendo:
 
-{% highlight markdown %}
+~~~
 *Pablito* clavo un _clavito_ y el **clavito** __clavo__ a Pablito.
-{% endhighlight %}
+~~~
 
 Como puedes notar se puede lograr el texto negrita usando solo un `_` o un `*` 
 y el texto cursivo se puede lograr usando dos `**` o dos `__` al inicio y al 
@@ -350,11 +349,11 @@ Por ejemplo:
 
 Le hace escribiendo:
 
-{% highlight markdown %}
+~~~
 `puts "Hola Markdown" if Markdown.include?`
 
 `` `mosca` `` que el simbolo es `` ` `` y no `'`.
-{% endhighlight %}
+~~~
 
 Notese que si se quiere incluir un texto con que contiene el mismo simbolo `` ` ``
 debes rodear el contenido con un doble `` ` ``
@@ -372,9 +371,9 @@ Por ejemplo:
 
 Se puede lograr escribiendo:
 
-{% highlight markdown %}
+~~~
 ![Markdown](https://i.imgur.com/Mz0i3G8.png "Logo Markdown")
-{% endhighlight %}
+~~~
 
 Notese que a pesar de que se puede colocar el texto `alt` y el `title`
 existentes en la etiqueta `<img>` HTML, no podemos controlar la dimension de la
@@ -400,11 +399,11 @@ simple de convertir una url escrita en un enlace basico:
 
 Se logra simplemente escribiendo:
 
-{% highlight markdown %}
+~~~
 <http://blog.jam.net.ve>
 
 <correo@dominio.tld>
-{% endhighlight %}
+~~~
 
 ### Quiebre de linea:
 
@@ -436,11 +435,11 @@ como por ejemplo el `*`, `-`, `_`, etc.
 
 Esto se logra escribiendo:
 
-{% highlight markdown %}
+~~~
 \*Texto rodeado con `*`\*
 
 \_Texto rodeado con `_`\_
-{% endhighlight %}
+~~~
 
 Tambien hay caracteres de escape para los siguientes simbolos:
 
