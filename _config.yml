@@ -11,7 +11,7 @@ plugins: ./_plugins
 future: true
 markdown: kramdown
 permalink: /:year/:month/:day/:title
-highlighter: rouge
+highlighter: pygments
 excerpt_separator: "<!-- more -->"
 paginate: 5
 paginate_path: "/page:num"
