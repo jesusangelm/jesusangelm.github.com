@@ -15,7 +15,7 @@ herramientas un tanto mas sencillas como Chef. En esta ocasion hablaremos de una
 nueva herramienta conocida como [Docker](https://www.docker.io/) que nos puede ayudar igualmente pero de
 la forma mas sencilla posible.
 
-<center><img src="http://i.imgur.com/JVyF5bi.png" title="Hosted by imgur.com" /></center>
+<center><img src="https://i.imgur.com/JVyF5bi.png" title="Hosted by imgur.com" /></center>
 
 <!-- more -->
 
