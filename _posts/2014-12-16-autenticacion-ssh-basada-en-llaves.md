@@ -93,3 +93,12 @@ AllowUsers mi-usuario pepito fulanito
 
 De la misma forma podrias usar la directiva `AllowGroup` para permitir unicamente
 a cierto grupo autenticarse en el servidor.
+
+Una vez terminado tan solo necesitamos reiniciar OpenSSH y tendremos activa todas
+estas configuraciones.
+
+Con esto ya aumentamos un poco mas la seguridad en nuestro servidor, logicamente
+se podrian realizar mas ajustes o agregar por ejemplo un sistema que utilice el 
+firewall para bloquear el acceso a las IP que hayan tenido una cierta cantidad
+de intentos fallidos de autenticacion. Esto ultimo lo explicare un poco mas adelante.
+
