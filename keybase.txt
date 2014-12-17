@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/jesusangelm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.jam.net.ve
+  * I am jesusangelm (https://keybase.io/jesusangelm) on keybase.
+  * I have a public key with fingerprint 7867 1133 740C 53E5 7AD3  481E 73EF F2EC 327A 7FB0
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "78671133740c53e57ad3481e73eff2ec327a7fb0",
+            "host": "keybase.io",
+            "key_id": "73EFF2EC327A7FB0",
+            "uid": "0fc8b2438ed5df09cc0354eb0d9a9500",
+            "username": "jesusangelm"
+        },
+        "merkle_root": {
+            "ctime": 1416269975,
+            "hash": "2cbdaebe860d68cafba98c75d69cd4fcf92d5111c4b215a6eab00cf46c9e628fb6460b923491e81523e3746d25911b38babce270faedf992504171171fafe47a",
+            "seqno": 96370
+        },
+        "service": {
+            "hostname": "blog.jam.net.ve",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1416270262,
+    "expire_in": 157680000,
+    "prev": "049407599cd4c6af8d7066e3c68a287ecaae16048fd201693b630d4d7198e48b",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+owFVUm1QVFUYXjYF5XNFRxthCG+TJSzLud/3QoZIoGaNAQoZ6nY/zt29y365d4GI
+SKBxgsEhiMwcxcqhZAaQFBElf1RGNDAEG4FjOhiYKMlIKGTgpN3L0GTn1znzPu/z
+Ps/znuqQJ3SBfsrk3QnsrX1f+vWM87rttpqzRQjvEguRhCJEsMvQ6dVuTs4BkQQk
+FxbynAJNsiva6RKhyaZEL2CMSD70KLLLqaKAiTbhSLFRg2vNkuy0QI/bI2tcCM1Q
+NIriOE0AgcQhSXMiTjAopHEoSRgUcIzmaIkHKqXVpXj/NxWZ5zTLosaDp6alYakp
+Kj6ZTtuo4fPmC0ASGB4jcAaKpCgBVhAAThKQByLLsSSYByrQs2DJBpU8hVMF2h2a
+ZAf05Nqh2eNyzfsWvLKGQgmUwiiWpUlVFKdY1T5M4EUO8pChgEgxAifxHMsINClS
+rCASkiCxmEiiKCoQPIaSHAU5HgBBIiiBhRTGSDxFUIBnMZxgUcigJIZDNRJKxEgW
+RXmc4TlegBgNJA6KEstiJCBQNTcalTgJEjSnulDgXqcLSWApnAbF2tOTLwtQk60F
+t+CPt7ssJhvnMDmh15QP1Ta3x+V1CS67WrR6vW4lQfPtLXRDpDUBKYC8eYHIzMtO
+UV3d47tFVejjmdAAozAjAt90yx5oljUESVMMUI82COZr+yBYAtAkq+UiUJzEiDSg
+KIgLFMNhDA0FjoMoBQhGEjGAUizOUzgQCZFGWQYSDP+fU0LVyVlUSkW2ODlvngci
+xRX6yEU6v0Cd/2K99nl1gUsN//7ohy1hjzZkjxzsXBy6vuR9exS/5PmYz2v3Fz+1
++qvvV/s+qXrQ3h39686S2+lHr2bAAd3g3AVphaPzyZfndo1O/a33bVvzRs43S++x
+n8b7zl9LPhHa9vt7CR1K6g/YuTURdHP8VPNz6W2LHGM543hW4vIAw+Udf/gde/vk
+qQ7D16bp17Ls488Yh2bOOBPjHH3n3WLIUGJ6ounM3ZKLBf2NdWVVycfDXhA+7G/Y
+1GYt+qV96y0BPQvkpsGNhoKZ9H31uXq/pr5Va2vryrCRm9vvvNLul+ccbv0LhPTu
+qehOsb3+anlpv3+rFbdY0vuSVkxXzETNti75sXzIuHZLbPRl5fSRKl9JT/D9GDE2
+aPe7thZr6bIeo2GZt8qdQm296ujovrMyPreHCT8M3ol9UdqQOaT/eMCQiufE1ZQf
+GAvvjiiKrf4AP7oqZmZkomzXzhOdwZ/xxvXXK9dZkmLtmw3Hwu/NZW2+9t3wjXO+
+iHGpfi56ZdehL8I6Gnc40j4qDKq5wGY09D7rPjXWmzljGA44UN3nX3nIcan1sDvy
+JWbPz1NHAruTkoK60xJ11pLpbe038N8uNj9cns090E9cqaEzJtuyborrjoeejhnN
+qQ8e3ZRSac62PLoVdbDQN9K3u3a2iy26fxIMok36odJI6JjeG9B15ae4xubJlrK6
+jD8jns6cvd4wtoW6dLtjoMn67T8=
+=2sBw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jesusangelm
+
+==================================================================
