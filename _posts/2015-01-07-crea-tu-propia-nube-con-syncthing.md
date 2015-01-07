@@ -131,7 +131,7 @@ desde la interfaz web incluida. `http://servidor.tld:8080`
 En la parte superior derecha podemos ver un engranaje desee el cual podemos acceder
 a la seccion de configuracion:
 
-![Syncthing Config](http://i.imgur.com/tSCQSir.png "Configuracion Syncthing")
+![Syncthing Config](https://i.imgur.com/tSCQSir.png "Configuracion Syncthing")
 
 Como se puede notar, es posible configurar el nombre del dispositivo (nodo), la
 ip y puerto de escucha para la interfaz web, y lo mas importante, la asignacion de
@@ -148,7 +148,7 @@ unico. En el primer arranque, Syncthing genera este ID para identificar el nodo.
 
 Un ID identificador de nodo es similar a esto:
 
-![Node ID](http://i.imgur.com/isdQLam.png)
+![Node ID](https://i.imgur.com/isdQLam.png)
 
 y es posible obtenerlo desde el boton de engranaje antes mencionado, haciendo click
 en **"Mostrar ID"**
@@ -162,7 +162,7 @@ archivos y carpetas basta con hacer click en **"Agregar Dispositivo"** en la pag
 principal de la interfaz web, a continuacion nos aparece un formulario en donde nos
 solicita unicamente el **ID** del nodo y el nombre del mismo.
 
-![New Node](http://i.imgur.com/Qm3ZExA.png)
+![New Node](https://i.imgur.com/Qm3ZExA.png)
 
 Tambien nos permite elegir que carpetas queremos sincronizar con ese nodo en 
 especifico.
@@ -178,7 +178,7 @@ a sincronizar y compartir con los nodos que tu elijas. Para crear una tan solo
 has click en el boton **"Agregar Repositorio"** y acontinuacion aparecera una 
 ventana como esta:
 
-![New repo](http://i.imgur.com/o6vSZob.png)
+![New repo](https://i.imgur.com/o6vSZob.png)
 
 En dicho formulario se puede colocar el **ID del repositorio** el cual sera el nombre
 unico que tendra la carpeta en el nodo actual. Tambien es posible indicar la ruta
